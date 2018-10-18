@@ -3337,57 +3337,170 @@
 - 09:25:30.750 DEBUG: OnBrowserDestroyed()
 - 09:25:30.438 INFO: Ended application
 - 09:25:30.438 INFO: --------------------------------------------------------
-- 10:05:29.000 INFO: --------------------------------------------------------
-- 10:05:29.000 INFO: Started application
-- 10:05:29.000 INFO: Logging to: F:\Church_sw\debug.log
-- 10:05:29.000 INFO: Log level = DEBUG4
-- 10:05:29.000 INFO: Starting Mongoose 3.9c web server
-- 10:05:29.000 INFO: WWW directory: F:\Church_sw\www
-- 10:05:29.000 INFO: Index files: index.html,index.php
-- 10:05:29.000 INFO: CGI interpreter: F:\Church_sw\php\php-cgi.exe
-- 10:05:29.000 INFO: CGI pattern: **.php$
-- 10:05:29.000 INFO: Hide files patterns: 
-- 10:05:29.000 INFO: CGI environment variables set: TMP=C:\Users\Jerry\AppData\Local\Temp\,TEMP=C:\Users\Jerry\AppData\Local\Temp\,TMPDIR=C:\Users\Jerry\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
-- 10:05:29.016 INFO: Web server url: http://127.0.0.1:61209/
-- 10:05:29.016 INFO: remote_debugging_port = 51308
-- 10:05:29.016 DEBUG: Command line string for the browser process: "F:\Church_sw\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="F:\Church_sw\debug.log" --remote-debugging-port=51308
-- 10:05:29.047 DEBUG: App::OnContextInitialized()
-- 10:05:29.047 DEBUG: Window max width/height = 1840/992
-- 10:05:29.047 DEBUG: GetBrowserWindow(): not found, hwnd = 1246402
-- 10:05:29.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
-- 10:05:29.047 DEBUG: BrowserWindow::CreateBrowserControl()
-- 10:05:29.047 DEBUG: StoreBrowserWindow(): hwnd = 1246402
-- 10:05:29.109 DEBUG: ClientHandler::OnAfterCreated()
-- 10:05:29.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
-- 10:05:29.125 DEBUG: OnLoadingStateChange: loading=1, url=
-- 10:05:29.000 DEBUG: Command line string for the gpu-process process: "F:\Church_sw\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="F:\Church_sw\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x174d --lang=en-US --log-file="F:\Church_sw\debug.log" --service-request-channel-token=EB60D9336B9755FEB15E2E49BE843E9D --mojo-platform-channel-handle=1712 /prefetch:2
-- 10:05:29.000 DEBUG: Command line string for the renderer process: "F:\Church_sw\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=C618ADF8DEBADB94382ABECA995004B8 --lang=en-US --lang=en-US --log-file="F:\Church_sw\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=C618ADF8DEBADB94382ABECA995004B8 --renderer-client-id=3 --mojo-platform-channel-handle=2420 /prefetch:1
-- 10:05:30.031 DEBUG: OnBrowserCreated()
-[1018/100530.845:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
-- 10:05:38.094 INFO: GET 200 /
-- 10:05:38.094 INFO: GET 200 /css/style.css
-- 10:05:38.094 INFO: GET 200 /js/jquery-3.3.1.min.js
-- 10:05:38.094 INFO: GET 200 /js/tamil.js
-- 10:05:38.422 DEBUG: OnContextCreated()
-- 10:05:38.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61209/
-- 10:05:48.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61209/
-- 10:05:48.625 INFO: POST 302 /login_check.php
-- 10:05:49.016 DEBUG: OnContextCreated()
-- 10:05:49.688 INFO: GET 200 /home.php
-- 10:05:49.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61209/home.php
-- 10:05:50.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61209/home.php
-- 10:05:50.906 DEBUG: OnContextCreated()
-- 10:05:50.578 INFO: GET 200 /add_family.php
-- 10:05:50.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61209/add_family.php
-- 10:06:16.469 DEBUG: WM_DESTROY
-- 10:06:16.469 DEBUG: RemoveBrowserWindow(): hwnd = 1246402
-- 10:06:16.469 INFO: Stopping Mongoose web server
-- 10:06:16.469 DEBUG: Mongoose webserver stopped immediately
-- 10:06:16.469 DEBUG: OnBeforeClose() hwnd=526284
-- 10:06:16.469 DEBUG: RemoveBrowserWindow(): hwnd = 526284
-- 10:06:16.469 DEBUG: GetBrowserWindow(): not found, hwnd = 526284
-- 10:06:16.469 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
-- 10:06:16.469 DEBUG: Calling CefQuitMessageLoop()
-- 10:06:16.812 DEBUG: OnBrowserDestroyed()
-- 10:06:17.734 INFO: Ended application
-- 10:06:17.734 INFO: --------------------------------------------------------
+- 10:06:18.000 INFO: --------------------------------------------------------
+- 10:06:18.000 INFO: Started application
+- 10:06:18.000 INFO: Logging to: F:\church\debug.log
+- 10:06:18.000 INFO: Log level = DEBUG4
+- 10:06:18.000 INFO: Starting Mongoose 3.9c web server
+- 10:06:18.000 INFO: WWW directory: F:\church\www
+- 10:06:18.000 INFO: Index files: index.html,index.php
+- 10:06:18.000 INFO: CGI interpreter: F:\church\php\php-cgi.exe
+- 10:06:18.000 INFO: CGI pattern: **.php$
+- 10:06:18.000 INFO: Hide files patterns: 
+- 10:06:18.000 INFO: CGI environment variables set: TMP=C:\Users\Jerry\AppData\Local\Temp\,TEMP=C:\Users\Jerry\AppData\Local\Temp\,TMPDIR=C:\Users\Jerry\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:06:18.000 INFO: Web server url: http://127.0.0.1:61225/
+- 10:06:18.000 INFO: remote_debugging_port = 62740
+- 10:06:18.000 DEBUG: Command line string for the browser process: "F:\church\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="F:\church\debug.log" --remote-debugging-port=62740
+- 10:06:18.047 DEBUG: App::OnContextInitialized()
+- 10:06:18.047 DEBUG: Window max width/height = 1840/992
+- 10:06:18.047 DEBUG: GetBrowserWindow(): not found, hwnd = 1116172
+- 10:06:18.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:06:18.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:06:18.047 DEBUG: StoreBrowserWindow(): hwnd = 1116172
+- 10:06:18.109 DEBUG: ClientHandler::OnAfterCreated()
+- 10:06:18.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:06:18.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:06:19.000 DEBUG: Command line string for the gpu-process process: "F:\church\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="F:\church\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x174d --lang=en-US --log-file="F:\church\debug.log" --service-request-channel-token=A874D2946CCA4C3D193622CEAC28FE3F --mojo-platform-channel-handle=1676 /prefetch:2
+[1018/100619.158:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:06:19.016 DEBUG: Command line string for the renderer process: "F:\church\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=869972AB924A2907368FEB0B51EAEA62 --lang=en-US --lang=en-US --log-file="F:\church\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=869972AB924A2907368FEB0B51EAEA62 --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+- 10:06:19.031 DEBUG: OnBrowserCreated()
+- 10:06:19.047 INFO: GET 200 /css/style.css
+- 10:06:19.047 INFO: GET 200 /js/tamil.js
+- 10:06:19.047 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 10:06:19.047 INFO: GET 200 /
+- 10:06:19.719 DEBUG: OnContextCreated()
+- 10:06:19.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/
+- 10:06:27.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/
+- 10:06:27.219 INFO: POST 302 /login_check.php
+- 10:06:27.953 DEBUG: OnContextCreated()
+- 10:06:27.281 INFO: GET 200 /home.php
+- 10:06:27.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/home.php
+- 10:06:28.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/home.php
+- 10:06:28.766 DEBUG: OnContextCreated()
+- 10:06:28.094 INFO: GET 200 /add_family.php
+- 10:06:29.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family.php
+- 10:06:32.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/add_family.php
+- 10:06:32.781 DEBUG: OnContextCreated()
+- 10:06:32.109 INFO: POST 200 /add_family_check.php
+- 10:06:32.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family_check.php
+- 10:06:40.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/add_family_check.php
+- 10:06:40.641 DEBUG: OnContextCreated()
+- 10:06:40.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family.php
+- 10:07:05.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/add_family.php
+- 10:07:05.703 DEBUG: OnContextCreated()
+- 10:07:05.031 INFO: GET 200 /add_family.php
+- 10:07:05.031 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 10:07:05.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family.php
+- 10:07:32.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/add_family.php
+- 10:07:32.891 DEBUG: OnContextCreated()
+- 10:07:32.234 INFO: GET 200 /add_family.php
+- 10:07:32.234 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 10:07:32.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family.php
+- 10:07:58.625 DEBUG: ClientHandler::OnAfterCreated()
+- 10:07:58.625 DEBUG: GetBrowserWindow(): not found, hwnd = 1311920
+- 10:07:58.625 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 10:07:58.625 DEBUG: StoreBrowserWindow(): hwnd = 1311920
+- 10:07:58.641 DEBUG: Centering popup window relative to its parent
+- 10:07:58.641 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:07:58.000 DEBUG: Command line string for the renderer process: "F:\church\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=5CEAEDB1A86E84109E107082A2513E49 --lang=en-US --lang=en-US --log-file="F:\church\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=5CEAEDB1A86E84109E107082A2513E49 --renderer-client-id=4 --mojo-platform-channel-handle=2164 /prefetch:1
+- 10:07:58.032 DEBUG: OnBrowserCreated()
+- 10:07:58.047 DEBUG: OnContextCreated()
+- 10:07:58.969 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 10:09:49.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/add_family.php
+- 10:09:49.047 DEBUG: OnContextCreated()
+- 10:09:49.375 INFO: GET 200 /add_family.php
+- 10:09:49.375 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 10:09:49.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family.php
+[1018/100950.590:INFO:CONSOLE(36)] "Uncaught ReferenceError: divSubmit is not defined", source: http://127.0.0.1:61225/add_family.php (36)
+[1018/100952.232:INFO:CONSOLE(36)] "Uncaught ReferenceError: divSubmit is not defined", source: http://127.0.0.1:61225/add_family.php (36)
+[1018/100952.508:INFO:CONSOLE(36)] "Uncaught ReferenceError: divSubmit is not defined", source: http://127.0.0.1:61225/add_family.php (36)
+[1018/100952.927:INFO:CONSOLE(36)] "Uncaught ReferenceError: divSubmit is not defined", source: http://127.0.0.1:61225/add_family.php (36)
+- 10:11:27.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/add_family.php
+- 10:11:27.109 DEBUG: OnContextCreated()
+- 10:11:27.437 INFO: GET 200 /add_family.php
+- 10:11:27.437 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 10:11:27.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family.php
+- 10:12:57.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/add_family.php
+- 10:12:57.922 DEBUG: OnContextCreated()
+- 10:12:57.250 INFO: GET 200 /add_family.php
+- 10:12:57.250 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 10:12:57.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family.php
+- 10:14:29.562 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/add_family.php
+- 10:14:29.297 DEBUG: OnContextCreated()
+- 10:14:29.641 INFO: GET 200 /add_family.php
+- 10:14:29.641 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 10:14:29.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family.php
+- 10:16:31.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/add_family.php
+- 10:16:31.344 DEBUG: OnContextCreated()
+- 10:16:31.672 INFO: GET 200 /add_family.php
+- 10:16:31.672 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 10:16:31.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family.php
+- 10:17:20.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/add_family.php
+- 10:17:20.719 DEBUG: OnContextCreated()
+- 10:17:20.047 INFO: GET 200 /add_family.php
+- 10:17:20.047 INFO: GET 200 /js/jquery-3.3.1.min.js
+[1018/101720.935:INFO:CONSOLE(29)] "Uncaught SyntaxError: Invalid or unexpected token", source: http://127.0.0.1:61225/add_family.php (29)
+- 10:17:20.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family.php
+- 10:17:51.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/add_family.php
+- 10:17:52.813 DEBUG: OnContextCreated()
+- 10:17:52.141 INFO: GET 200 /add_family.php
+- 10:17:52.141 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 10:17:52.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family.php
+- 10:18:21.687 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/add_family.php
+- 10:18:21.422 DEBUG: OnContextCreated()
+- 10:18:21.750 INFO: GET 200 /add_family.php
+- 10:18:21.750 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 10:18:21.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family.php
+- 10:18:54.344 DEBUG: OnBeforeClose() hwnd=1311920
+- 10:18:54.344 DEBUG: RemoveBrowserWindow(): hwnd = 1311920
+- 10:18:54.563 DEBUG: OnBrowserDestroyed()
+- 10:21:48.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/add_family.php
+- 10:21:48.516 DEBUG: OnContextCreated()
+- 10:21:48.844 INFO: GET 200 /add_family.php
+- 10:21:48.844 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 10:21:48.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family.php
+- 10:22:09.812 DEBUG: ClientHandler::OnAfterCreated()
+- 10:22:09.812 DEBUG: GetBrowserWindow(): not found, hwnd = 1574064
+- 10:22:09.812 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 10:22:09.812 DEBUG: StoreBrowserWindow(): hwnd = 1574064
+- 10:22:09.812 DEBUG: Centering popup window relative to its parent
+- 10:22:09.812 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:22:09.000 DEBUG: Command line string for the renderer process: "F:\church\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=5AA8F25181A38CFC688837C4EC73B241 --lang=en-US --lang=en-US --log-file="F:\church\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=5AA8F25181A38CFC688837C4EC73B241 --renderer-client-id=5 --mojo-platform-channel-handle=3272 /prefetch:1
+- 10:22:09.031 DEBUG: OnBrowserCreated()
+- 10:22:09.047 DEBUG: OnContextCreated()
+- 10:22:09.031 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 10:22:54.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/add_family.php
+- 10:22:54.891 DEBUG: OnContextCreated()
+- 10:22:54.219 INFO: GET 200 /add_family.php
+- 10:22:54.219 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 10:22:54.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family.php
+- 10:24:18.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/add_family.php
+- 10:24:18.953 DEBUG: OnContextCreated()
+- 10:24:18.281 INFO: GET 200 /add_family.php
+- 10:24:18.297 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 10:24:18.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family.php
+- 10:25:50.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/add_family.php
+- 10:25:50.344 DEBUG: OnContextCreated()
+- 10:25:50.672 INFO: GET 200 /add_family.php
+- 10:25:50.672 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 10:25:50.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family.php
+- 10:26:01.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61225/add_family.php
+- 10:26:01.078 DEBUG: OnContextCreated()
+- 10:26:01.422 INFO: GET 200 /add_family.php
+- 10:26:01.422 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 10:26:01.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61225/add_family.php
+- 10:32:53.625 DEBUG: OnBeforeClose() hwnd=1574064
+- 10:32:53.625 DEBUG: RemoveBrowserWindow(): hwnd = 1574064
+- 10:32:53.812 DEBUG: OnBrowserDestroyed()
+- 10:32:54.500 DEBUG: WM_DESTROY
+- 10:32:54.500 DEBUG: RemoveBrowserWindow(): hwnd = 1116172
+- 10:32:54.500 INFO: Stopping Mongoose web server
+- 10:32:54.500 DEBUG: Mongoose webserver stopped immediately
+- 10:32:54.500 DEBUG: OnBeforeClose() hwnd=197324
+- 10:32:54.500 DEBUG: RemoveBrowserWindow(): hwnd = 197324
+- 10:32:54.500 DEBUG: GetBrowserWindow(): not found, hwnd = 197324
+- 10:32:54.500 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:32:54.500 DEBUG: Calling CefQuitMessageLoop()
+- 10:32:54.203 DEBUG: OnBrowserDestroyed()
+- 10:32:54.578 INFO: Ended application
+- 10:32:54.578 INFO: --------------------------------------------------------
