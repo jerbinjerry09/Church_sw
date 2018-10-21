@@ -15,7 +15,7 @@ session_start();
       <script type="text/javascript">
        
     </script>
-    <form id="login-form" action="login_check.php" name="findkural" method="post">
+    <form id="login-form" action="controls/login_check.php" name="findkural" method="post">
         <label><?php if( isset($_SESSION['login_error'])){
             echo  $_SESSION['login_error'];
         }

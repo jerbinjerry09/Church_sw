@@ -62,7 +62,7 @@
 </script>
 <button id="btAdd">Add</button>
 
-    <form action="add_family_check.php" name="family_form" method="POST">
+    <form action="controls/add_family_check.php" name="family_form" method="POST">
 
         <table id="ttable">
             <thead>
