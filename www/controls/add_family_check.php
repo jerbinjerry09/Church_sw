@@ -1,4 +1,5 @@
 <?php
+
 include('db_info.php');
 
 $place=explode('-', $_POST['place']);
@@ -11,7 +12,7 @@ $address=SQLite3::escapeString($_POST['address']);
 $family_head='testing head';
 
 
-$sql="insert into family_list (family_id,phone,place,address,family_head) values('$family_id','$phone','$place','$address','$f_head');";
+$sql="insert into family_list (family_id,phone,place,address,family_head) values('$family_id','$phone','$place','$address','$family_head');";
 if($db->exec($sql))
 {
     echo 'data inserted';

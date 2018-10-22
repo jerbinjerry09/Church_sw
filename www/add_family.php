@@ -1,19 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Family</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-     <!-- <script type="text/javascript" src="js/tamil.js"></script> -->
-     <style type="text/css">
-         input{
-            color:red;
-         }
-     </style>
-</head>
-<body>
+<?php include('header.php'); ?>
+<?php include('sidebar.php'); ?>
+<?php include('breadcrumb.php'); ?>
     <a href="home.php">Home </a>
     <script language="javascript">
         $(document).ready(function() {
@@ -120,5 +107,4 @@
         </table>
         <input type="submit" name="" value="Submit">
     </form>
-</body>
-</html>
+    <?php include('footer.php'); ?>
