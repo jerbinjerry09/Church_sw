@@ -966,6 +966,7 @@ textarea.form-input {
   padding: 0.25rem 0.4rem;
   vertical-align: middle;
   width: 100%;
+  -webkit-appearance: none;
 }
 .form-select[size], .form-select[multiple] {
   height: auto;

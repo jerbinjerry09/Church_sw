@@ -5850,3 +5850,403 @@
 - 12:15:57.766 DEBUG: Calling CefQuitMessageLoop()
 - 12:15:57.797 INFO: Ended application
 - 12:15:57.797 INFO: --------------------------------------------------------
+- 19:00:08.000 INFO: --------------------------------------------------------
+- 19:00:08.016 INFO: Started application
+- 19:00:08.016 INFO: Logging to: E:\own\Church_sw\debug.log
+- 19:00:08.016 INFO: Log level = DEBUG4
+- 19:00:08.016 INFO: Starting Mongoose 3.9c web server
+- 19:00:08.016 INFO: WWW directory: E:\own\Church_sw\www
+- 19:00:08.016 INFO: Index files: index.html,index.php
+- 19:00:08.016 INFO: CGI interpreter: E:\own\Church_sw\php\php-cgi.exe
+- 19:00:08.016 INFO: CGI pattern: **.php$
+- 19:00:08.016 INFO: Hide files patterns: 
+- 19:00:08.016 INFO: CGI environment variables set: TMP=C:\Users\jerbin.jm\AppData\Local\Temp\,TEMP=C:\Users\jerbin.jm\AppData\Local\Temp\,TMPDIR=C:\Users\jerbin.jm\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 19:00:08.032 INFO: Web server url: http://127.0.0.1:65318/
+- 19:00:08.032 INFO: remote_debugging_port = 50091
+- 19:00:08.032 DEBUG: Command line string for the browser process: "E:\own\Church_sw\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="E:\own\Church_sw\debug.log" --remote-debugging-port=50091
+[1022/190008.504:WARNING:resource_bundle.cc(327)] locale_file_path.empty() for locale 
+[1022/190008.504:ERROR:main_delegate.cc(684)] Could not load locale pak for en-US
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.589:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+- 19:00:08.172 DEBUG: App::OnContextInitialized()
+- 19:00:08.172 DEBUG: Window max width/height = 1840/992
+- 19:00:08.172 DEBUG: GetBrowserWindow(): not found, hwnd = 1447236
+- 19:00:08.172 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:00:08.172 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:00:08.172 DEBUG: StoreBrowserWindow(): hwnd = 1447236
+- 19:00:08.031 DEBUG: Command line string for the gpu-process process: "E:\own\Church_sw\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="E:\own\Church_sw\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=22.20.16.4749 --gpu-driver-date=7-24-2017 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x134d --lang=en-US --log-file="E:\own\Church_sw\debug.log" --service-request-channel-token=87E015B3C82E23A7FB8C0C140C8654AF --mojo-platform-channel-handle=1636 /prefetch:2
+- 19:00:08.219 DEBUG: ClientHandler::OnAfterCreated()
+- 19:00:08.219 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:00:08.235 DEBUG: OnLoadingStateChange: loading=1, url=
+[1022/190008.667:WARNING:resource_bundle.cc(327)] locale_file_path.empty() for locale 
+[1022/190008.667:ERROR:main_delegate.cc(684)] Could not load locale pak for en-US
+[1022/190008.667:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190008.667:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+- 19:00:08.000 DEBUG: Command line string for the renderer process: "E:\own\Church_sw\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=AB0313751020683B4690774642F2E2FD --lang=en-US --lang=en-US --log-file="E:\own\Church_sw\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=AB0313751020683B4690774642F2E2FD --renderer-client-id=3 --mojo-platform-channel-handle=2216 /prefetch:1
+[1022/190008.796:WARNING:resource_bundle.cc(327)] locale_file_path.empty() for locale 
+[1022/190008.800:ERROR:main_delegate.cc(684)] Could not load locale pak for en-US
+[1022/190010.290:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 19:00:14.500 DEBUG: OnBrowserCreated()
+[1022/190015.692:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190015.692:ERROR:content_client.cc(257)] No localized string available for id 4122
+[1022/190015.692:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190015.692:ERROR:content_client.cc(257)] No localized string available for id 4123
+[1022/190015.692:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190015.692:ERROR:content_client.cc(257)] No localized string available for id 4125
+[1022/190015.692:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190015.692:ERROR:content_client.cc(257)] No localized string available for id 4126
+[1022/190015.811:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190015.811:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+- 19:00:17.672 INFO: GET 200 /
+- 19:00:17.875 INFO: GET 200 /css/style.css
+- 19:00:17.875 INFO: GET 200 /css/spectre.css
+- 19:00:17.875 INFO: GET 200 /css/spectre-exp.css
+- 19:00:17.875 INFO: GET 200 /css/spectre-icons.css
+- 19:00:17.891 INFO: GET 200 /js/tamil.js
+- 19:00:17.891 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 19:00:17.234 DEBUG: OnContextCreated()
+- 19:00:17.532 INFO: GET 200 /img/logo.jpg
+- 19:00:19.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:65318/
+[1022/190030.001:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190030.001:ERROR:content_client.cc(257)] No localized string available for id 4122
+[1022/190030.001:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190030.001:ERROR:content_client.cc(257)] No localized string available for id 4123
+[1022/190030.001:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190030.001:ERROR:content_client.cc(257)] No localized string available for id 4125
+[1022/190030.001:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190030.001:ERROR:content_client.cc(257)] No localized string available for id 4126
+[1022/190030.001:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/190030.001:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+- 19:00:31.547 INFO: GET 200 /
+- 19:00:32.594 INFO: GET 200 /css/style.css
+- 19:00:32.594 INFO: GET 200 /css/spectre.css
+- 19:00:32.610 INFO: GET 200 /css/spectre-exp.css
+- 19:00:32.610 INFO: GET 200 /css/spectre-icons.css
+- 19:00:32.610 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 19:00:32.610 INFO: GET 200 /js/tamil.js
+- 19:00:32.672 INFO: GET 200 /img/logo.jpg
+- 19:00:32.719 INFO: GET 404 /favicon.ico
+- 19:00:39.469 INFO: GET 200 /
+- 19:00:40.610 INFO: GET 200 /css/style.css
+- 19:00:40.610 INFO: GET 200 /css/spectre.css
+- 19:00:40.610 INFO: GET 200 /css/spectre-exp.css
+- 19:00:40.625 INFO: GET 200 /css/spectre-icons.css
+- 19:00:40.625 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 19:00:40.625 INFO: GET 200 /js/tamil.js
+- 19:00:40.672 INFO: GET 200 /img/logo.jpg
+- 19:00:40.828 INFO: GET 200 /css/spectre.css.map
+- 19:00:40.828 INFO: GET 200 /css/spectre-exp.css.map
+- 19:00:40.828 INFO: GET 200 /css/spectre-icons.css.map
+- 19:00:40.875 INFO: GET 404 /favicon.ico
+- 19:00:47.500 INFO: POST 302 /controls/login_check.php
+- 19:00:48.672 INFO: GET 200 /home.php
+- 19:00:56.938 INFO: GET 200 /add_family.php
+- 19:02:52.141 INFO: GET 200 /add_family.php
+- 19:05:00.032 INFO: GET 200 /add_family.php
+- 19:06:35.907 INFO: GET 200 /add_family.php
+- 19:10:27.703 INFO: GET 200 /add_family.php
+- 19:12:18.625 INFO: GET 200 /add_family.php
+- 19:16:02.157 INFO: GET 200 /add_family.php
+- 19:18:31.594 INFO: GET 200 /add_family.php
+- 19:18:33.594 INFO: GET 200 /add_family.php
+- 19:18:33.625 INFO: GET 200 /css/style.css
+- 19:18:33.625 INFO: GET 200 /css/spectre.css
+- 19:18:33.625 INFO: GET 200 /css/spectre-exp.css
+- 19:18:33.641 INFO: GET 200 /css/spectre-icons.css
+- 19:18:33.641 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 19:18:33.641 INFO: GET 200 /js/tamil.js
+- 19:18:33.813 INFO: GET 404 /favicon.ico
+- 19:21:56.313 INFO: GET 200 /add_family.php
+- 19:21:56.375 INFO: GET 304 /css/spectre.css
+- 19:22:10.078 INFO: GET 200 /add_family.php
+- 19:22:10.141 INFO: GET 200 /css/style.css
+- 19:22:10.157 INFO: GET 200 /css/spectre.css
+- 19:22:10.157 INFO: GET 200 /css/spectre-exp.css
+- 19:22:10.157 INFO: GET 200 /css/spectre-icons.css
+- 19:22:10.157 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 19:22:10.157 INFO: GET 200 /js/tamil.js
+- 19:22:10.328 INFO: GET 404 /favicon.ico
+- 19:23:05.750 INFO: GET 200 /add_family.php
+- 19:23:05.797 INFO: GET 304 /css/spectre.css
+- 19:23:50.407 INFO: POST 200 /controls/add_family_check.php
+- 19:23:56.860 INFO: GET 200 /add_family.php
+- 19:23:58.985 INFO: POST 200 /controls/add_family_check.php
+- 19:24:00.375 INFO: GET 200 /add_family.php
+- 19:26:31.719 INFO: GET 200 /add_family.php
+- 19:26:31.797 INFO: GET 304 /css/spectre.css
+- 19:27:23.578 INFO: GET 200 /add_family.php
+- 19:27:23.657 INFO: GET 304 /css/spectre.css
+- 19:27:40.578 INFO: GET 200 /add_family.php
+- 19:27:40.610 INFO: GET 304 /css/spectre.css
+- 19:28:48.813 INFO: GET 200 /add_family.php
+- 19:28:48.907 INFO: GET 304 /css/spectre.css
+- 19:30:10.313 INFO: GET 200 /add_family.php
+- 19:30:10.407 INFO: GET 304 /css/spectre.css
+- 19:30:24.735 INFO: GET 200 /add_family.php
+- 19:30:24.813 INFO: GET 304 /css/spectre.css
+- 19:30:28.110 INFO: POST 200 /controls/add_family_check.php
+- 19:30:32.719 INFO: GET 200 /add_family.php
+- 19:31:03.172 INFO: GET 200 /add_family.php
+- 19:31:03.235 INFO: GET 304 /css/spectre.css
+- 19:32:02.485 INFO: GET 200 /add_family.php
+- 19:32:02.532 INFO: GET 304 /css/spectre.css
+- 19:32:08.375 INFO: GET 200 /add_family.php
+- 19:32:08.469 INFO: GET 304 /css/spectre.css
+- 19:41:49.641 INFO: GET 200 /data_entry.php
+- 19:41:52.672 INFO: GET 200 /add_family.php
+- 19:41:53.078 INFO: GET 404 /list_family.php
+- 19:41:55.860 INFO: GET 200 /add_family.php
+- 19:41:58.407 INFO: GET 200 /home.php
+- 19:41:58.453 INFO: GET 304 /css/spectre.css
+- 19:42:03.703 INFO: GET 200 /add_family.php
+- 19:42:03.750 INFO: GET 304 /css/spectre.css
+- 19:42:17.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:65318/
+- 19:42:17.969 INFO: POST 302 /controls/login_check.php
+- 19:42:17.047 INFO: GET 200 /home.php
+- 19:42:17.781 DEBUG: OnContextCreated()
+- 19:42:17.047 INFO: GET 304 /css/spectre-exp.css
+- 19:42:17.047 INFO: GET 304 /css/spectre-icons.css
+- 19:42:17.047 INFO: GET 200 /css/spectre.css
+- 19:42:17.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:65318/home.php
+- 19:42:19.860 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:65318/home.php
+- 19:42:19.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:65318/home.php#sidebar-id
+- 19:42:21.610 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:65318/home.php#sidebar-id
+- 19:42:21.406 DEBUG: OnContextCreated()
+- 19:42:21.672 INFO: GET 200 /add_family.php
+- 19:42:21.672 INFO: GET 304 /css/spectre-exp.css
+- 19:42:21.672 INFO: GET 304 /css/spectre-icons.css
+[1022/194221.119:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.119:ERROR:content_client.cc(257)] No localized string available for id 20120
+[1022/194221.119:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.119:ERROR:content_client.cc(257)] No localized string available for id 20121
+[1022/194221.119:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.119:ERROR:content_client.cc(257)] No localized string available for id 20122
+[1022/194221.171:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.171:ERROR:content_client.cc(257)] No localized string available for id 20214
+[1022/194221.171:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.171:ERROR:content_client.cc(257)] No localized string available for id 20257
+[1022/194221.171:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.171:ERROR:content_client.cc(257)] No localized string available for id 20260
+[1022/194221.171:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.171:ERROR:content_client.cc(257)] No localized string available for id 20120
+[1022/194221.171:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.171:ERROR:content_client.cc(257)] No localized string available for id 20121
+[1022/194221.171:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.171:ERROR:content_client.cc(257)] No localized string available for id 20122
+[1022/194221.171:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.171:ERROR:content_client.cc(257)] No localized string available for id 20214
+[1022/194221.171:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.171:ERROR:content_client.cc(257)] No localized string available for id 20257
+[1022/194221.171:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.171:ERROR:content_client.cc(257)] No localized string available for id 20260
+[1022/194221.171:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.171:ERROR:content_client.cc(257)] No localized string available for id 20120
+[1022/194221.171:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.172:ERROR:content_client.cc(257)] No localized string available for id 20121
+[1022/194221.172:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.172:ERROR:content_client.cc(257)] No localized string available for id 20122
+[1022/194221.172:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.172:ERROR:content_client.cc(257)] No localized string available for id 20214
+[1022/194221.172:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.172:ERROR:content_client.cc(257)] No localized string available for id 20257
+[1022/194221.172:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.172:ERROR:content_client.cc(257)] No localized string available for id 20260
+[1022/194221.172:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.172:ERROR:content_client.cc(257)] No localized string available for id 20120
+[1022/194221.172:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.172:ERROR:content_client.cc(257)] No localized string available for id 20121
+[1022/194221.172:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.172:ERROR:content_client.cc(257)] No localized string available for id 20122
+[1022/194221.172:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.172:ERROR:content_client.cc(257)] No localized string available for id 20214
+[1022/194221.172:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.172:ERROR:content_client.cc(257)] No localized string available for id 20257
+[1022/194221.172:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194221.172:ERROR:content_client.cc(257)] No localized string available for id 20260
+- 19:42:21.907 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:65318/add_family.php
+[1022/194229.238:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194229.238:ERROR:content_client.cc(257)] No localized string available for id 20104
+[1022/194229.238:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194229.238:ERROR:content_client.cc(257)] No localized string available for id 20116
+[1022/194229.254:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194229.254:ERROR:content_client.cc(257)] No localized string available for id 20103
+[1022/194229.254:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194229.254:ERROR:content_client.cc(257)] No localized string available for id 20126
+[1022/194229.254:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194229.254:ERROR:content_client.cc(257)] No localized string available for id 20130
+[1022/194229.254:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194229.254:ERROR:content_client.cc(257)] No localized string available for id 20131
+[1022/194229.254:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194229.254:ERROR:content_client.cc(257)] No localized string available for id 20132
+[1022/194230.831:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194230.831:ERROR:content_client.cc(257)] No localized string available for id 20120
+[1022/194230.831:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194230.831:ERROR:content_client.cc(257)] No localized string available for id 20121
+[1022/194230.832:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194230.832:ERROR:content_client.cc(257)] No localized string available for id 20122
+[1022/194230.832:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194230.832:ERROR:content_client.cc(257)] No localized string available for id 20214
+[1022/194230.832:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194230.832:ERROR:content_client.cc(257)] No localized string available for id 20257
+[1022/194230.832:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194230.832:ERROR:content_client.cc(257)] No localized string available for id 20260
+[1022/194232.346:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194232.346:ERROR:content_client.cc(257)] No localized string available for id 20104
+[1022/194232.346:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194232.346:ERROR:content_client.cc(257)] No localized string available for id 20116
+[1022/194232.346:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194232.346:ERROR:content_client.cc(257)] No localized string available for id 20103
+[1022/194232.346:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194232.346:ERROR:content_client.cc(257)] No localized string available for id 20126
+[1022/194232.346:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194232.346:ERROR:content_client.cc(257)] No localized string available for id 20130
+[1022/194232.346:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194232.346:ERROR:content_client.cc(257)] No localized string available for id 20131
+[1022/194232.346:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194232.346:ERROR:content_client.cc(257)] No localized string available for id 20132
+[1022/194233.304:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194233.304:ERROR:content_client.cc(257)] No localized string available for id 20120
+[1022/194233.304:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194233.304:ERROR:content_client.cc(257)] No localized string available for id 20121
+[1022/194233.304:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194233.304:ERROR:content_client.cc(257)] No localized string available for id 20122
+[1022/194233.304:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194233.304:ERROR:content_client.cc(257)] No localized string available for id 20214
+[1022/194233.304:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194233.304:ERROR:content_client.cc(257)] No localized string available for id 20257
+[1022/194233.304:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194233.304:ERROR:content_client.cc(257)] No localized string available for id 20260
+- 19:43:21.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:65318/add_family.php
+- 19:43:21.828 DEBUG: OnContextCreated()
+- 19:43:21.094 INFO: POST 200 /controls/add_family_check.php
+- 19:43:21.110 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:65318/controls/add_family_check.php
+[1022/194333.318:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194333.318:ERROR:content_client.cc(257)] No localized string available for id 4122
+[1022/194333.318:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194333.318:ERROR:content_client.cc(257)] No localized string available for id 4123
+[1022/194333.318:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194333.318:ERROR:content_client.cc(257)] No localized string available for id 4125
+[1022/194333.318:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194333.318:ERROR:content_client.cc(257)] No localized string available for id 4126
+[1022/194333.318:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194333.318:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+- 19:43:34.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:65318/controls/add_family_check.php
+- 19:43:34.750 DEBUG: OnContextCreated()
+- 19:43:34.016 INFO: GET 200 /add_family.php
+[1022/194334.481:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.481:ERROR:content_client.cc(257)] No localized string available for id 20120
+[1022/194334.481:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.481:ERROR:content_client.cc(257)] No localized string available for id 20121
+[1022/194334.481:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.481:ERROR:content_client.cc(257)] No localized string available for id 20122
+[1022/194334.481:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.481:ERROR:content_client.cc(257)] No localized string available for id 20214
+[1022/194334.481:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.481:ERROR:content_client.cc(257)] No localized string available for id 20257
+[1022/194334.481:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.481:ERROR:content_client.cc(257)] No localized string available for id 20260
+[1022/194334.481:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.481:ERROR:content_client.cc(257)] No localized string available for id 20120
+[1022/194334.481:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.481:ERROR:content_client.cc(257)] No localized string available for id 20121
+[1022/194334.481:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.482:ERROR:content_client.cc(257)] No localized string available for id 20122
+[1022/194334.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.482:ERROR:content_client.cc(257)] No localized string available for id 20214
+[1022/194334.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.482:ERROR:content_client.cc(257)] No localized string available for id 20257
+[1022/194334.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.482:ERROR:content_client.cc(257)] No localized string available for id 20260
+[1022/194334.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.482:ERROR:content_client.cc(257)] No localized string available for id 20120
+[1022/194334.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.482:ERROR:content_client.cc(257)] No localized string available for id 20121
+[1022/194334.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.482:ERROR:content_client.cc(257)] No localized string available for id 20122
+[1022/194334.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.482:ERROR:content_client.cc(257)] No localized string available for id 20214
+[1022/194334.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.482:ERROR:content_client.cc(257)] No localized string available for id 20257
+[1022/194334.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.482:ERROR:content_client.cc(257)] No localized string available for id 20260
+[1022/194334.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.482:ERROR:content_client.cc(257)] No localized string available for id 20120
+[1022/194334.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.482:ERROR:content_client.cc(257)] No localized string available for id 20121
+[1022/194334.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.482:ERROR:content_client.cc(257)] No localized string available for id 20122
+[1022/194334.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.482:ERROR:content_client.cc(257)] No localized string available for id 20214
+[1022/194334.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.482:ERROR:content_client.cc(257)] No localized string available for id 20257
+[1022/194334.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1022/194334.482:ERROR:content_client.cc(257)] No localized string available for id 20260
+- 19:43:34.063 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:65318/add_family.php
+- 21:04:11.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:65318/add_family.php
+- 21:04:11.656 DEBUG: OnContextCreated()
+- 21:04:11.922 INFO: POST 200 /controls/add_family_check.php
+- 21:04:11.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:65318/controls/add_family_check.php
+- 21:04:19.297 INFO: POST 200 /controls/add_family_check.php
+- 21:05:40.328 INFO: GET 200 /add_family.php
+- 21:05:40.516 INFO: GET 200 /css/spectre.css.map
+- 21:05:40.516 INFO: GET 304 /css/spectre-exp.css.map
+- 21:05:40.516 INFO: GET 304 /css/spectre-icons.css.map
+- 21:05:41.453 INFO: GET 200 /add_family.php
+- 21:05:41.516 INFO: GET 304 /css/spectre.css
+- 21:05:41.516 INFO: GET 304 /css/spectre-exp.css
+- 21:05:41.532 INFO: GET 304 /css/spectre-icons.css
+- 21:05:42.641 INFO: GET 304 /css/spectre-exp.css.map
+- 21:05:42.641 INFO: GET 304 /css/spectre-icons.css.map
+- 21:06:38.078 DEBUG: WM_DESTROY
+- 21:06:38.078 DEBUG: RemoveBrowserWindow(): hwnd = 1447236
+- 21:06:38.078 INFO: Stopping Mongoose web server
+- 21:06:38.078 DEBUG: Mongoose webserver stopped immediately
+- 21:06:38.110 DEBUG: OnBeforeClose() hwnd=1709402
+- 21:06:38.110 DEBUG: RemoveBrowserWindow(): hwnd = 1709402
+- 21:06:38.110 DEBUG: GetBrowserWindow(): not found, hwnd = 1709402
+- 21:06:38.110 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:06:38.110 DEBUG: Calling CefQuitMessageLoop()
+- 21:06:38.141 INFO: Ended application
+- 21:06:38.141 INFO: --------------------------------------------------------
