@@ -1,6 +1,9 @@
 <?php
-include('db_info.php');
-include('header.php');
+
+include('header.php'); 
+include('sidebar.php'); 
+include('breadcrumb.php'); 
+include('db_info.php'); 
 $results = $db->query("SELECT * from family_list ");
 ?>
 <table>
@@ -13,7 +16,8 @@ $results = $db->query("SELECT * from family_list ");
 <?php
 while ($row = $results->fetchArray()) {
     echo '<tr>'.
-    		'<td>'.$row['family_id'].'</td><td>'.$row['family_head'].'</td><td>'.$row['place'].'</td>';
+    		'<td>'.$row['family_id'].'</td><td>'.$row['family_head'].'</td><td>'.$row['place'].'</td>'.
+    	 '<tr>';
 }
 
 ?>

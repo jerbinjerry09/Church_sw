@@ -8127,3 +8127,1135 @@
 - 21:47:28.172 DEBUG: OnBrowserDestroyed()
 - 21:47:30.078 INFO: Ended application
 - 21:47:30.078 INFO: --------------------------------------------------------
+- 22:01:54.000 INFO: --------------------------------------------------------
+- 22:01:54.000 INFO: Started application
+- 22:01:54.000 INFO: Logging to: F:\Church_sw\debug.log
+- 22:01:54.000 INFO: Log level = DEBUG4
+- 22:01:54.000 INFO: Starting Mongoose 3.9c web server
+- 22:01:54.000 INFO: WWW directory: F:\Church_sw\www
+- 22:01:54.000 INFO: Index files: index.html,index.php
+- 22:01:54.000 INFO: CGI interpreter: F:\Church_sw\php\php-cgi.exe
+- 22:01:54.000 INFO: CGI pattern: **.php$
+- 22:01:54.000 INFO: Hide files patterns: 
+- 22:01:54.000 INFO: CGI environment variables set: TMP=C:\Users\Jerry\AppData\Local\Temp\,TEMP=C:\Users\Jerry\AppData\Local\Temp\,TMPDIR=C:\Users\Jerry\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:01:54.016 INFO: Web server url: http://127.0.0.1:54116/
+- 22:01:54.016 INFO: remote_debugging_port = 59246
+- 22:01:54.016 DEBUG: Command line string for the browser process: "F:\Church_sw\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="F:\Church_sw\debug.log" --remote-debugging-port=59246
+[1023/220154.967:WARNING:resource_bundle.cc(327)] locale_file_path.empty() for locale 
+[1023/220154.967:ERROR:main_delegate.cc(684)] Could not load locale pak for en-US
+[1023/220155.133:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.134:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.135:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.135:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.135:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.135:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.135:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.135:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.135:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.135:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.135:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.135:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.135:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.136:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.136:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.136:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.136:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.136:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+- 22:01:55.188 DEBUG: App::OnContextInitialized()
+- 22:01:55.188 DEBUG: Window max width/height = 1840/992
+- 22:01:55.188 DEBUG: GetBrowserWindow(): not found, hwnd = 266124
+- 22:01:55.188 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:01:55.188 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:01:55.188 DEBUG: StoreBrowserWindow(): hwnd = 266124
+- 22:01:55.046 DEBUG: Command line string for the gpu-process process: "F:\Church_sw\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="F:\Church_sw\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x174d --lang=en-US --log-file="F:\Church_sw\debug.log" --service-request-channel-token=48EDBF55F148FE189524462F1AB59196 --mojo-platform-channel-handle=1692 /prefetch:2
+[1023/220155.195:WARNING:resource_bundle.cc(327)] locale_file_path.empty() for locale 
+[1023/220155.195:ERROR:main_delegate.cc(684)] Could not load locale pak for en-US
+- 22:01:55.266 DEBUG: ClientHandler::OnAfterCreated()
+- 22:01:55.266 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:01:55.281 DEBUG: OnLoadingStateChange: loading=1, url=
+[1023/220155.235:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220155.235:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+- 22:01:55.000 DEBUG: Command line string for the renderer process: "F:\Church_sw\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=4C5994E99AE62A780AD640BF1AA03D7B --lang=en-US --lang=en-US --log-file="F:\Church_sw\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4C5994E99AE62A780AD640BF1AA03D7B --renderer-client-id=3 --mojo-platform-channel-handle=2420 /prefetch:1
+[1023/220155.268:WARNING:resource_bundle.cc(327)] locale_file_path.empty() for locale 
+[1023/220155.268:ERROR:main_delegate.cc(684)] Could not load locale pak for en-US
+- 22:01:57.718 DEBUG: OnBrowserCreated()
+[1023/220158.522:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:02:41.875 INFO: GET 200 /
+- 22:02:42.078 INFO: GET 200 /css/style.css
+- 22:02:42.094 INFO: GET 200 /js/service.js
+- 22:02:42.094 INFO: GET 200 /css/spectre.css
+- 22:02:42.094 INFO: GET 200 /css/spectre-exp.css
+- 22:02:42.109 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:02:42.125 INFO: GET 200 /css/spectre-icons.css
+- 22:02:42.968 DEBUG: OnContextCreated()
+- 22:02:42.328 INFO: GET 200 /img/logo.jpg
+- 22:02:42.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54116/
+[1023/220758.855:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220758.855:ERROR:content_client.cc(257)] No localized string available for id 4122
+[1023/220758.855:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220758.855:ERROR:content_client.cc(257)] No localized string available for id 4123
+[1023/220758.855:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220758.855:ERROR:content_client.cc(257)] No localized string available for id 4125
+[1023/220758.855:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220758.855:ERROR:content_client.cc(257)] No localized string available for id 4126
+[1023/220758.886:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/220758.886:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+- 22:08:03.438 INFO: GET 200 /
+- 22:08:03.438 INFO: GET 200 /css/style.css
+- 22:08:03.453 INFO: GET 200 /css/spectre-icons.css
+- 22:08:03.453 INFO: GET 200 /css/spectre.css
+- 22:08:03.453 INFO: GET 200 /css/spectre-exp.css
+- 22:08:03.453 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:08:03.453 INFO: GET 200 /js/service.js
+- 22:08:03.453 INFO: GET 200 /img/logo.jpg
+- 22:08:03.469 INFO: GET 404 /robots.txt
+- 22:08:04.500 INFO: GET 404 /favicon.ico
+- 22:08:23.969 INFO: POST 302 /controls/login_check.php
+- 22:08:24.063 INFO: GET 200 /home.php
+- 22:08:24.281 INFO: GET 404 /robots.txt
+- 22:09:03.047 INFO: GET 200 /data_entry.php
+- 22:09:06.297 INFO: GET 200 /home.php
+- 22:09:07.906 INFO: GET 200 /add_family.php
+- 22:10:55.969 INFO: GET 200 /add_family.php
+- 22:10:55.047 INFO: GET 200 /add_family.php
+- 22:10:55.047 INFO: GET 200 /add_family.php
+- 22:10:56.109 INFO: GET 404 /favicon.ico
+- 22:11:05.953 INFO: GET 200 /add_family.php
+- 22:11:05.953 INFO: GET 200 /css/style.css
+- 22:11:05.953 INFO: GET 200 /css/spectre.css
+- 22:11:05.953 INFO: GET 200 /css/spectre-exp.css
+- 22:11:05.953 INFO: GET 200 /css/spectre-icons.css
+- 22:11:05.953 INFO: GET 200 /js/service.js
+- 22:11:05.953 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:11:05.016 INFO: GET 404 /favicon.ico
+- 22:11:11.391 INFO: GET 200 /list_family.php
+- 22:19:11.672 INFO: GET 200 /add_family.php
+- 22:20:22.969 INFO: GET 200 /list_family.php
+- 22:20:49.156 INFO: GET 200 /list_family.php
+- 22:20:49.156 INFO: GET 200 /css/style.css
+- 22:20:49.172 INFO: GET 200 /css/spectre.css
+- 22:20:49.172 INFO: GET 200 /css/spectre-exp.css
+- 22:20:49.172 INFO: GET 200 /css/spectre-icons.css
+- 22:20:49.172 INFO: GET 200 /js/service.js
+- 22:20:49.172 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:20:49.219 INFO: GET 404 /favicon.ico
+- 22:20:49.516 INFO: GET 200 /list_family.php
+- 22:20:49.531 INFO: GET 200 /css/style.css
+- 22:20:49.531 INFO: GET 200 /css/spectre-icons.css
+- 22:20:49.531 INFO: GET 200 /css/spectre-exp.css
+- 22:20:49.531 INFO: GET 200 /css/spectre.css
+- 22:20:49.531 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:20:49.531 INFO: GET 200 /js/service.js
+- 22:20:49.578 INFO: GET 404 /favicon.ico
+- 22:20:49.703 INFO: GET 200 /list_family.php
+- 22:20:49.719 INFO: GET 200 /css/style.css
+- 22:20:49.719 INFO: GET 200 /css/spectre.css
+- 22:20:49.719 INFO: GET 200 /css/spectre-exp.css
+- 22:20:49.719 INFO: GET 200 /css/spectre-icons.css
+- 22:20:49.719 INFO: GET 200 /js/service.js
+- 22:20:49.719 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:20:49.859 INFO: GET 200 /list_family.php
+- 22:20:49.875 INFO: GET 200 /css/style.css
+- 22:20:49.875 INFO: GET 200 /css/spectre.css
+- 22:20:49.875 INFO: GET 200 /css/spectre-icons.css
+- 22:20:49.875 INFO: GET 200 /css/spectre-exp.css
+- 22:20:49.875 INFO: GET 200 /js/service.js
+- 22:20:49.875 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:20:49.938 INFO: GET 404 /favicon.ico
+- 22:20:49.016 INFO: GET 200 /list_family.php
+- 22:20:50.125 INFO: GET 200 /css/style.css
+- 22:20:50.125 INFO: GET 200 /css/spectre.css
+- 22:20:50.141 INFO: GET 200 /css/spectre-icons.css
+- 22:20:50.141 INFO: GET 200 /css/spectre-exp.css
+- 22:20:50.141 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:20:50.141 INFO: GET 200 /js/service.js
+- 22:20:50.203 INFO: GET 404 /favicon.ico
+- 22:20:50.281 INFO: GET 200 /list_family.php
+- 22:20:50.281 INFO: GET 200 /list_family.php
+- 22:20:50.297 INFO: GET 200 /css/style.css
+- 22:20:50.297 INFO: GET 200 /css/spectre-exp.css
+- 22:20:50.297 INFO: GET 200 /css/spectre.css
+- 22:20:50.297 INFO: GET 200 /css/spectre-icons.css
+- 22:20:50.297 INFO: GET 200 /js/service.js
+- 22:20:50.297 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:20:50.422 INFO: GET 200 /list_family.php
+- 22:20:50.422 INFO: GET 200 /css/style.css
+- 22:20:50.438 INFO: GET 200 /css/spectre-icons.css
+- 22:20:50.438 INFO: GET 200 /css/spectre-exp.css
+- 22:20:50.438 INFO: GET 200 /css/spectre.css
+- 22:20:50.438 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:20:50.438 INFO: GET 200 /js/service.js
+- 22:20:50.484 INFO: GET 404 /favicon.ico
+- 22:21:04.906 INFO: GET 200 /list_family.php
+- 22:21:04.906 INFO: GET 200 /css/style.css
+- 22:21:04.906 INFO: GET 200 /css/spectre-exp.css
+- 22:21:04.906 INFO: GET 200 /css/spectre.css
+- 22:21:04.906 INFO: GET 200 /css/spectre-icons.css
+- 22:21:04.906 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:21:04.922 INFO: GET 200 /js/service.js
+- 22:21:05.344 INFO: GET 404 /favicon.ico
+- 22:29:47.203 INFO: GET 200 /list_family.php
+- 22:29:47.203 INFO: GET 200 /css/style.css
+- 22:29:47.219 INFO: GET 200 /css/spectre.css
+- 22:29:47.219 INFO: GET 200 /css/spectre-exp.css
+- 22:29:47.219 INFO: GET 200 /css/spectre-icons.css
+- 22:29:47.219 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:29:47.219 INFO: GET 200 /js/service.js
+- 22:29:47.281 INFO: GET 404 /favicon.ico
+- 22:29:49.266 INFO: GET 200 /list_family.php
+- 22:29:49.266 INFO: GET 200 /css/style.css
+- 22:29:49.266 INFO: GET 200 /css/spectre-exp.css
+- 22:29:49.266 INFO: GET 200 /css/spectre-icons.css
+- 22:29:49.266 INFO: GET 200 /css/spectre.css
+- 22:29:49.266 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:29:49.266 INFO: GET 200 /js/service.js
+- 22:29:49.328 INFO: GET 404 /favicon.ico
+- 22:29:49.500 INFO: GET 200 /list_family.php
+- 22:29:49.516 INFO: GET 200 /css/style.css
+- 22:29:49.516 INFO: GET 200 /css/spectre-exp.css
+- 22:29:49.516 INFO: GET 200 /css/spectre-icons.css
+- 22:29:49.516 INFO: GET 200 /css/spectre.css
+- 22:29:49.516 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:29:49.516 INFO: GET 200 /js/service.js
+- 22:29:49.563 INFO: GET 404 /favicon.ico
+- 22:29:49.719 INFO: GET 200 /list_family.php
+- 22:29:49.719 INFO: GET 200 /css/style.css
+- 22:29:49.719 INFO: GET 200 /css/spectre.css
+- 22:29:49.734 INFO: GET 200 /css/spectre-icons.css
+- 22:29:49.734 INFO: GET 200 /css/spectre-exp.css
+- 22:29:49.734 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:29:49.734 INFO: GET 200 /js/service.js
+- 22:29:49.781 INFO: GET 404 /favicon.ico
+- 22:29:49.031 INFO: GET 200 /list_family.php
+- 22:29:49.047 INFO: GET 200 /css/style.css
+- 22:29:49.047 INFO: GET 200 /css/spectre.css
+- 22:29:49.047 INFO: GET 200 /css/spectre-exp.css
+- 22:29:49.047 INFO: GET 200 /css/spectre-icons.css
+- 22:29:49.047 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:29:49.047 INFO: GET 200 /js/service.js
+- 22:29:50.094 INFO: GET 404 /favicon.ico
+- 22:42:49.500 DEBUG: WM_DESTROY
+- 22:42:49.500 DEBUG: RemoveBrowserWindow(): hwnd = 266124
+- 22:42:49.500 INFO: Stopping Mongoose web server
+- 22:42:49.500 DEBUG: Mongoose webserver stopped immediately
+- 22:42:49.500 DEBUG: OnBeforeClose() hwnd=1576930
+- 22:42:49.500 DEBUG: RemoveBrowserWindow(): hwnd = 1576930
+- 22:42:49.500 DEBUG: GetBrowserWindow(): not found, hwnd = 1576930
+- 22:42:49.500 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:42:49.500 DEBUG: Calling CefQuitMessageLoop()
+- 22:42:49.187 DEBUG: OnBrowserDestroyed()
+- 22:42:49.531 INFO: Ended application
+- 22:42:49.531 INFO: --------------------------------------------------------
+- 22:47:30.000 INFO: --------------------------------------------------------
+- 22:47:30.000 INFO: Started application
+- 22:47:30.000 INFO: Logging to: F:\Church_sw\debug.log
+- 22:47:30.000 INFO: Log level = DEBUG4
+- 22:47:30.000 INFO: Starting Mongoose 3.9c web server
+- 22:47:30.000 INFO: WWW directory: F:\Church_sw\www
+- 22:47:30.000 INFO: Index files: index.html,index.php
+- 22:47:30.000 INFO: CGI interpreter: F:\Church_sw\php\php-cgi.exe
+- 22:47:30.000 INFO: CGI pattern: **.php$
+- 22:47:30.000 INFO: Hide files patterns: 
+- 22:47:30.000 INFO: CGI environment variables set: TMP=C:\Users\Jerry\AppData\Local\Temp\,TEMP=C:\Users\Jerry\AppData\Local\Temp\,TMPDIR=C:\Users\Jerry\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:47:30.000 INFO: Web server url: http://127.0.0.1:58219/
+- 22:47:30.000 INFO: remote_debugging_port = 57716
+- 22:47:30.000 DEBUG: Command line string for the browser process: "F:\Church_sw\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="F:\Church_sw\debug.log" --remote-debugging-port=57716
+[1023/224730.553:WARNING:resource_bundle.cc(327)] locale_file_path.empty() for locale 
+[1023/224730.553:ERROR:main_delegate.cc(684)] Could not load locale pak for en-US
+[1023/224730.577:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.577:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.577:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.577:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.577:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.577:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.577:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.577:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.577:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.578:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.578:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.578:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.578:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.578:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.578:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.578:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.578:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.578:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.578:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.578:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.579:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.581:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.581:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.581:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.581:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.581:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+- 22:47:30.047 DEBUG: App::OnContextInitialized()
+- 22:47:30.047 DEBUG: Window max width/height = 1840/992
+- 22:47:30.047 DEBUG: GetBrowserWindow(): not found, hwnd = 2755290
+- 22:47:30.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:47:30.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:47:30.047 DEBUG: StoreBrowserWindow(): hwnd = 2755290
+- 22:47:30.109 DEBUG: ClientHandler::OnAfterCreated()
+- 22:47:30.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:47:30.125 DEBUG: OnLoadingStateChange: loading=1, url=
+[1023/224730.668:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/224730.668:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+- 22:47:30.000 DEBUG: Command line string for the renderer process: "F:\Church_sw\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=DFAB92B5B1DB5E80881C9CFCEE9F556C --lang=en-US --lang=en-US --log-file="F:\Church_sw\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=DFAB92B5B1DB5E80881C9CFCEE9F556C --renderer-client-id=3 --mojo-platform-channel-handle=2424 /prefetch:1
+[1023/224730.700:WARNING:resource_bundle.cc(327)] locale_file_path.empty() for locale 
+[1023/224730.700:ERROR:main_delegate.cc(684)] Could not load locale pak for en-US
+- 22:47:30.032 DEBUG: OnBrowserCreated()
+- 22:47:30.000 DEBUG: Command line string for the gpu-process process: "F:\Church_sw\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="F:\Church_sw\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x174d --lang=en-US --log-file="F:\Church_sw\debug.log" --service-request-channel-token=15E0ED33BB7B64F7E9E91B2EDC7C4C2E --mojo-platform-channel-handle=1660 /prefetch:2
+[1023/224730.762:WARNING:resource_bundle.cc(327)] locale_file_path.empty() for locale 
+[1023/224730.763:ERROR:main_delegate.cc(684)] Could not load locale pak for en-US
+[1023/224730.804:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:48:13.984 INFO: GET 200 /css/style.css
+- 22:48:13.984 INFO: GET 200 /
+- 22:48:13.984 INFO: GET 200 /css/spectre.css
+- 22:48:13.844 DEBUG: OnContextCreated()
+- 22:48:13.984 INFO: GET 200 /css/spectre-exp.css
+- 22:48:13.984 INFO: GET 200 /css/spectre-icons.css
+- 22:48:13.984 INFO: GET 200 /js/service.js
+- 22:48:13.984 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:48:13.109 INFO: GET 200 /img/logo.jpg
+- 22:48:14.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58219/
+[1023/225138.027:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/225138.027:ERROR:content_client.cc(257)] No localized string available for id 4122
+[1023/225138.027:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/225138.027:ERROR:content_client.cc(257)] No localized string available for id 4123
+[1023/225138.027:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/225138.027:ERROR:content_client.cc(257)] No localized string available for id 4125
+[1023/225138.027:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/225138.027:ERROR:content_client.cc(257)] No localized string available for id 4126
+[1023/225138.027:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1023/225138.027:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+- 22:51:42.875 INFO: GET 200 /
+- 22:51:42.890 INFO: GET 200 /css/style.css
+- 22:51:42.890 INFO: GET 200 /css/spectre.css
+- 22:51:42.890 INFO: GET 200 /css/spectre-icons.css
+- 22:51:42.890 INFO: GET 200 /css/spectre-exp.css
+- 22:51:42.890 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:51:42.890 INFO: GET 200 /js/service.js
+- 22:51:42.906 INFO: GET 200 /img/logo.jpg
+- 22:51:42.922 INFO: GET 404 /robots.txt
+- 22:51:42.047 INFO: GET 404 /favicon.ico
+- 22:51:48.094 INFO: POST 302 /controls/login_check.php
+- 22:51:48.156 INFO: GET 200 /home.php
+- 22:51:51.203 INFO: GET 200 /add_family.php
+- 22:52:36.531 INFO: GET 200 /add_family.php
+- 22:52:36.531 INFO: GET 200 /css/style.css
+- 22:52:36.531 INFO: GET 200 /css/spectre.css
+- 22:52:36.531 INFO: GET 200 /css/spectre-exp.css
+- 22:52:36.531 INFO: GET 200 /css/spectre-icons.css
+- 22:52:36.531 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:52:36.547 INFO: GET 200 /js/service.js
+- 22:52:36.609 INFO: GET 404 /favicon.ico
+- 22:52:59.781 INFO: GET 200 /add_family.php
+- 22:52:59.781 INFO: GET 200 /css/style.css
+- 22:52:59.797 INFO: GET 200 /css/spectre.css
+- 22:52:59.797 INFO: GET 200 /css/spectre-exp.css
+- 22:52:59.797 INFO: GET 200 /css/spectre-icons.css
+- 22:52:59.797 INFO: GET 200 /js/service.js
+- 22:52:59.797 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:52:59.859 INFO: GET 404 /favicon.ico
+- 22:52:59.453 INFO: GET 404 /robots.txt
+- 22:53:00.531 INFO: GET 200 /add_family.php
+- 22:53:00.547 INFO: GET 200 /css/style.css
+- 22:53:00.547 INFO: GET 200 /css/spectre-icons.css
+- 22:53:00.547 INFO: GET 200 /css/spectre-exp.css
+- 22:53:00.547 INFO: GET 200 /js/service.js
+- 22:53:00.547 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:53:00.547 INFO: GET 200 /css/spectre.css
+- 22:53:00.594 INFO: GET 404 /favicon.ico
+- 22:53:17.250 INFO: GET 200 /add_family.php
+- 22:53:17.250 INFO: GET 200 /css/style.css
+- 22:53:17.265 INFO: GET 200 /css/spectre.css
+- 22:53:17.265 INFO: GET 200 /css/spectre-icons.css
+- 22:53:17.265 INFO: GET 200 /css/spectre-exp.css
+- 22:53:17.265 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:53:17.265 INFO: GET 200 /js/service.js
+- 22:53:17.328 INFO: GET 404 /favicon.ico
+- 22:53:18.953 INFO: GET 200 /add_family.php
+- 22:53:18.953 INFO: GET 200 /css/style.css
+- 22:53:18.953 INFO: GET 200 /css/spectre-icons.css
+- 22:53:18.953 INFO: GET 200 /css/spectre-exp.css
+- 22:53:18.953 INFO: GET 200 /css/spectre.css
+- 22:53:18.953 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:53:18.953 INFO: GET 200 /js/service.js
+- 22:53:18.015 INFO: GET 404 /favicon.ico
+- 22:53:23.281 INFO: GET 200 /add_family.php
+- 22:53:23.297 INFO: GET 200 /css/style.css
+- 22:53:23.297 INFO: GET 200 /css/spectre-exp.css
+- 22:53:23.297 INFO: GET 200 /css/spectre.css
+- 22:53:23.297 INFO: GET 200 /css/spectre-icons.css
+- 22:53:23.297 INFO: GET 200 /js/service.js
+- 22:53:23.297 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:53:23.359 INFO: GET 404 /favicon.ico
+- 22:53:24.125 INFO: GET 200 /add_family.php
+- 22:53:24.140 INFO: GET 200 /css/style.css
+- 22:53:24.140 INFO: GET 200 /css/spectre.css
+- 22:53:24.140 INFO: GET 200 /css/spectre-exp.css
+- 22:53:24.140 INFO: GET 200 /css/spectre-icons.css
+- 22:53:24.140 INFO: GET 200 /js/service.js
+- 22:53:24.140 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 22:53:24.187 INFO: GET 404 /favicon.ico
+- 23:00:55.828 INFO: GET 200 /add_family.php
+- 23:00:55.828 INFO: GET 200 /css/style.css
+- 23:00:55.844 INFO: GET 200 /css/spectre-icons.css
+- 23:00:55.844 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 23:00:55.844 INFO: GET 200 /js/service.js
+- 23:00:55.844 INFO: GET 200 /css/spectre-exp.css
+- 23:00:55.844 INFO: GET 200 /css/spectre.css
+- 23:00:55.922 INFO: GET 404 /favicon.ico
+- 23:00:56.469 INFO: GET 200 /add_family.php
+- 23:00:56.469 INFO: GET 200 /css/style.css
+- 23:00:56.469 INFO: GET 200 /css/spectre.css
+- 23:00:56.469 INFO: GET 200 /css/spectre-icons.css
+- 23:00:56.469 INFO: GET 200 /css/spectre-exp.css
+- 23:00:56.469 INFO: GET 200 /js/service.js
+- 23:00:56.469 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 23:00:56.531 INFO: GET 404 /favicon.ico
+- 23:00:56.687 INFO: GET 200 /add_family.php
+- 23:00:56.687 INFO: GET 200 /css/style.css
+- 23:00:56.703 INFO: GET 200 /css/spectre.css
+- 23:00:56.703 INFO: GET 200 /css/spectre-icons.css
+- 23:00:56.703 INFO: GET 200 /css/spectre-exp.css
+- 23:00:56.703 INFO: GET 200 /js/service.js
+- 23:00:56.703 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 23:00:56.750 INFO: GET 404 /favicon.ico
+- 23:00:56.859 INFO: GET 200 /add_family.php
+- 23:00:56.859 INFO: GET 200 /css/style.css
+- 23:00:56.859 INFO: GET 200 /css/spectre-exp.css
+- 23:00:56.859 INFO: GET 200 /css/spectre-icons.css
+- 23:00:56.859 INFO: GET 200 /css/spectre.css
+- 23:00:56.859 INFO: GET 200 /js/service.js
+- 23:00:56.859 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 23:01:32.703 INFO: GET 200 /add_family.php
+- 23:01:32.719 INFO: GET 200 /css/style.css
+- 23:01:32.719 INFO: GET 200 /css/spectre.css
+- 23:01:32.719 INFO: GET 200 /css/spectre-exp.css
+- 23:01:32.719 INFO: GET 200 /css/spectre-icons.css
+- 23:01:32.719 INFO: GET 200 /js/service.js
+- 23:01:32.719 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 23:01:32.797 INFO: GET 404 /favicon.ico
+- 23:08:13.062 INFO: GET 200 /add_family.php
+- 23:08:13.062 INFO: GET 200 /css/style.css
+- 23:08:13.062 INFO: GET 200 /css/spectre.css
+- 23:08:13.062 INFO: GET 200 /css/spectre-exp.css
+- 23:08:13.062 INFO: GET 200 /css/spectre-icons.css
+- 23:08:13.062 INFO: GET 200 /js/service.js
+- 23:08:13.062 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 23:08:13.156 INFO: GET 404 /favicon.ico
+- 23:08:14.703 INFO: GET 200 /add_family.php
+- 23:08:14.703 INFO: GET 200 /css/style.css
+- 23:08:14.719 INFO: GET 200 /css/spectre.css
+- 23:08:14.719 INFO: GET 200 /css/spectre-exp.css
+- 23:08:14.719 INFO: GET 200 /css/spectre-icons.css
+- 23:08:14.719 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 23:08:14.719 INFO: GET 200 /js/service.js
+- 23:08:14.781 INFO: GET 404 /favicon.ico
+- 23:08:14.828 INFO: GET 200 /add_family.php
+- 23:08:14.844 INFO: GET 200 /css/style.css
+- 23:08:14.844 INFO: GET 200 /css/spectre-exp.css
+- 23:08:14.844 INFO: GET 200 /css/spectre.css
+- 23:08:14.844 INFO: GET 200 /css/spectre-icons.css
+- 23:08:14.844 INFO: GET 200 /js/service.js
+- 23:08:14.844 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 23:12:51.140 INFO: GET 404 /controls/uploads/Array
+- 23:12:51.140 INFO: GET 404 /controls/uploads/sml_Array
+- 23:12:51.312 INFO: POST 200 /controls/add_family_check.php
+- 23:12:51.312 INFO: GET 404 /controls/uploads/Array
+- 23:12:51.312 INFO: GET 404 /controls/uploads/sml_Array
+- 23:15:30.375 INFO: GET 404 /controls/uploads/Array
+- 23:15:30.375 INFO: GET 404 /controls/uploads/sml_Array
+- 23:15:31.484 INFO: POST 200 /controls/add_family_check.php
+- 23:15:31.484 INFO: GET 404 /controls/uploads/sml_Array
+- 23:15:31.484 INFO: GET 404 /controls/uploads/Array
+- 23:15:31.531 INFO: GET 404 /favicon.ico
+- 23:17:30.656 INFO: POST 200 /controls/add_family_check.php
+- 23:17:30.687 INFO: GET 404 /favicon.ico
+- 23:19:33.890 INFO: POST 200 /controls/add_family_check.php
+- 23:19:33.922 INFO: GET 404 /favicon.ico
+- 23:22:50.812 INFO: POST 200 /controls/add_family_check.php
+- 23:22:50.859 INFO: GET 404 /favicon.ico
+- 23:24:23.172 INFO: POST 200 /controls/add_family_check.php
+- 23:24:23.203 INFO: GET 404 /favicon.ico
+- 23:25:10.984 INFO: GET 404 /robots.txt
+- 23:25:10.078 INFO: POST 200 /controls/add_family_check.php
+- 23:25:10.109 INFO: GET 404 /favicon.ico
+- 23:25:32.219 INFO: POST 200 /controls/add_family_check.php
+- 23:25:32.250 INFO: GET 404 /favicon.ico
+- 23:25:46.781 INFO: GET 404 /controls/uploads/
+- 23:25:46.781 INFO: GET 404 /controls/uploads/sml_
+- 23:25:46.906 INFO: POST 200 /controls/add_family_check.php
+- 23:25:46.906 INFO: GET 404 /controls/uploads/
+- 23:25:46.906 INFO: GET 404 /controls/uploads/sml_
+- 23:25:46.937 INFO: GET 404 /favicon.ico
+- 23:33:50.453 INFO: GET 404 /controls/uploads/
+- 23:33:50.453 INFO: GET 404 /controls/uploads/sml_
+- 23:33:50.625 INFO: POST 200 /controls/add_family_check.php
+- 23:33:50.625 INFO: GET 404 /controls/uploads/sml_
+- 23:33:50.625 INFO: GET 404 /controls/uploads/
+- 23:33:50.672 INFO: GET 404 /favicon.ico
+- 23:34:15.265 INFO: GET 404 /controls/uploads/
+- 23:34:15.281 INFO: GET 404 /controls/uploads/sml_
+- 23:34:16.484 INFO: POST 200 /controls/add_family_check.php
+- 23:34:16.500 INFO: GET 404 /controls/uploads/
+- 23:34:16.500 INFO: GET 404 /controls/uploads/sml_
+- 23:34:16.531 INFO: GET 404 /favicon.ico
+- 23:35:20.406 INFO: POST 200 /controls/add_family_check.php
+- 23:35:20.422 INFO: GET 404 /favicon.ico
+- 23:36:13.344 INFO: POST 200 /controls/add_family_check.php
+- 23:36:13.375 INFO: GET 404 /favicon.ico
+- 23:38:06.297 INFO: GET 404 /controls/uploads/pubg poster2.jpg
+- 23:38:06.297 INFO: GET 404 /controls/uploads/sml_pubg poster2.jpg
+- 23:38:06.422 INFO: POST 200 /controls/add_family_check.php
+- 23:38:06.422 INFO: GET 404 /controls/uploads/battlefield-4-game-wide.jpg
+- 23:38:06.422 INFO: GET 404 /controls/uploads/sml_battlefield-4-game-wide.jpg
+- 23:38:06.422 INFO: GET 404 /controls/uploads/4233879-crysis-game-wallpapers.jpg
+- 23:38:06.422 INFO: GET 404 /controls/uploads/sml_4233879-crysis-game-wallpapers.jpg
+- 23:38:07.469 INFO: GET 404 /favicon.ico
+- 23:38:41.578 INFO: POST 200 /controls/add_family_check.php
+- 23:38:41.578 INFO: GET 200 /controls/uploads/sml_pubg poster2.jpg
+- 23:38:41.578 INFO: GET 200 /controls/uploads/pubg poster2.jpg
+- 23:38:41.594 INFO: GET 200 /controls/uploads/sml_battlefield-4-game-wide.jpg
+- 23:38:41.594 INFO: GET 200 /controls/uploads/sml_4233879-crysis-game-wallpapers.jpg
+- 23:38:41.594 INFO: GET 200 /controls/uploads/4233879-crysis-game-wallpapers.jpg
+- 23:38:41.609 INFO: GET 200 /controls/uploads/battlefield-4-game-wide.jpg
+- 23:38:41.828 INFO: GET 404 /favicon.ico
+- 23:44:02.047 INFO: POST 200 /controls/add_family_check.php
+- 23:44:02.047 INFO: GET 200 /controls/uploads/sml_pubg poster2.jpg
+- 23:44:02.047 INFO: GET 200 /controls/uploads/pubg poster2.jpg
+- 23:44:02.078 INFO: GET 200 /controls/uploads/sml_4233879-crysis-game-wallpapers.jpg
+- 23:44:02.078 INFO: GET 200 /controls/uploads/sml_battlefield-4-game-wide.jpg
+- 23:44:02.094 INFO: GET 200 /controls/uploads/battlefield-4-game-wide.jpg
+- 23:44:02.094 INFO: GET 200 /controls/uploads/4233879-crysis-game-wallpapers.jpg
+- 23:44:02.250 INFO: GET 404 /favicon.ico
+- 23:45:09.859 INFO: GET 404 /robots.txt
+- 23:45:11.640 INFO: POST 200 /controls/add_family_check.php
+- 23:45:11.640 INFO: GET 200 /controls/uploads/sml_pubg poster2.jpg
+- 23:45:11.640 INFO: GET 200 /controls/uploads/pubg poster2.jpg
+- 23:45:11.656 INFO: GET 200 /controls/uploads/sml_battlefield-4-game-wide.jpg
+- 23:45:11.656 INFO: GET 200 /controls/uploads/sml_4233879-crysis-game-wallpapers.jpg
+- 23:45:11.656 INFO: GET 200 /controls/uploads/battlefield-4-game-wide.jpg
+- 23:45:11.656 INFO: GET 200 /controls/uploads/4233879-crysis-game-wallpapers.jpg
+- 23:45:11.797 INFO: GET 404 /favicon.ico
+- 23:46:24.781 INFO: POST 200 /controls/add_family_check.php
+- 23:46:24.781 INFO: GET 200 /controls/uploads/sml_pubg poster2.jpg
+- 23:46:24.781 INFO: GET 200 /controls/uploads/pubg poster2.jpg
+- 23:46:24.797 INFO: GET 200 /controls/uploads/sml_battlefield-4-game-wide.jpg
+- 23:46:24.797 INFO: GET 200 /controls/uploads/sml_4233879-crysis-game-wallpapers.jpg
+- 23:46:24.797 INFO: GET 200 /controls/uploads/battlefield-4-game-wide.jpg
+- 23:46:24.812 INFO: GET 200 /controls/uploads/4233879-crysis-game-wallpapers.jpg
+- 23:46:24.890 INFO: GET 404 /favicon.ico
+- 23:48:07.031 INFO: GET 404 /controls/uploads/5bcf65df88604.jpg
+- 23:48:07.031 INFO: GET 200 /controls/uploads/sml_5bcf65df88604.jpg
+- 23:48:07.047 INFO: GET 404 /controls/uploads/5bcf65df893c6.jpg
+- 23:48:07.047 INFO: GET 200 /controls/uploads/sml_5bcf65df893c6.jpg
+- 23:48:08.500 INFO: POST 200 /controls/add_family_check.php
+- 23:48:08.500 INFO: GET 404 /controls/uploads/5bcf65df89d54.jpg
+- 23:48:08.500 INFO: GET 200 /controls/uploads/sml_5bcf65df89d54.jpg
+- 23:48:08.531 INFO: GET 404 /favicon.ico
+- 23:49:41.469 INFO: POST 200 /controls/add_family_check.php
+- 23:49:41.469 INFO: GET 404 /controls/uploads/sml_pubg poster2.jpg
+- 23:49:41.484 INFO: GET 200 /controls/uploads/pubg poster2.jpg
+- 23:49:41.500 INFO: GET 404 /controls/uploads/sml_battlefield-4-game-wide.jpg
+- 23:49:41.500 INFO: GET 404 /controls/uploads/sml_4233879-crysis-game-wallpapers.jpg
+- 23:49:41.500 INFO: GET 200 /controls/uploads/4233879-crysis-game-wallpapers.jpg
+- 23:49:41.500 INFO: GET 200 /controls/uploads/battlefield-4-game-wide.jpg
+- 23:49:41.672 INFO: GET 404 /favicon.ico
+- 23:51:24.734 INFO: GET 404 /controls/uploads/pubg poster2.jpg
+- 23:51:24.734 INFO: GET 404 /controls/uploads/sml_pubg poster2.jpg
+- 23:51:24.750 INFO: GET 404 /controls/uploads/battlefield-4-game-wide.jpg
+- 23:51:24.750 INFO: GET 404 /controls/uploads/sml_battlefield-4-game-wide.jpg
+- 23:51:24.844 INFO: POST 200 /controls/add_family_check.php
+- 23:51:24.844 INFO: GET 404 /controls/uploads/4233879-crysis-game-wallpapers.jpg
+- 23:51:24.844 INFO: GET 404 /controls/uploads/sml_4233879-crysis-game-wallpapers.jpg
+- 23:51:24.875 INFO: GET 404 /favicon.ico
+- 23:53:24.562 INFO: POST 200 /controls/add_family_check.php
+- 23:53:24.578 INFO: GET 200 /controls/uploads/pubg poster2.jpg
+- 23:53:24.578 INFO: GET 404 /controls/uploads/sml_pubg poster2.jpg
+- 23:53:24.609 INFO: GET 404 /controls/uploads/sml_battlefield-4-game-wide.jpg
+- 23:53:24.609 INFO: GET 404 /controls/uploads/sml_4233879-crysis-game-wallpapers.jpg
+- 23:53:24.609 INFO: GET 200 /controls/uploads/battlefield-4-game-wide.jpg
+- 23:53:24.609 INFO: GET 200 /controls/uploads/4233879-crysis-game-wallpapers.jpg
+- 23:53:24.765 INFO: GET 404 /favicon.ico
+- 23:54:01.500 INFO: POST 200 /controls/add_family_check.php
+- 23:54:01.500 INFO: GET 404 /controls/uploads/pubg poster2.jpg
+- 23:54:01.500 INFO: GET 404 /controls/uploads/sml_pubg poster2.jpg
+- 23:54:01.515 INFO: GET 404 /controls/uploads/sml_battlefield-4-game-wide.jpg
+- 23:54:01.515 INFO: GET 404 /controls/uploads/battlefield-4-game-wide.jpg
+- 23:54:01.515 INFO: GET 404 /controls/uploads/4233879-crysis-game-wallpapers.jpg
+- 23:54:01.515 INFO: GET 404 /controls/uploads/sml_4233879-crysis-game-wallpapers.jpg
+- 23:54:01.547 INFO: GET 404 /favicon.ico
+- 23:55:30.672 INFO: POST 200 /controls/add_family_check.php
+- 23:55:30.672 INFO: GET 404 /controls/uploads/pubg poster2.jpg
+- 23:55:30.672 INFO: GET 404 /controls/uploads/sml_pubg poster2.jpg
+- 23:55:30.687 INFO: GET 404 /controls/uploads/battlefield-4-game-wide.jpg
+- 23:55:30.687 INFO: GET 404 /controls/uploads/4233879-crysis-game-wallpapers.jpg
+- 23:55:30.687 INFO: GET 404 /controls/uploads/sml_battlefield-4-game-wide.jpg
+- 23:55:30.687 INFO: GET 404 /controls/uploads/sml_4233879-crysis-game-wallpapers.jpg
+- 23:55:30.719 INFO: GET 404 /favicon.ico
+- 23:57:17.984 INFO: POST 200 /controls/add_family_check.php
+- 23:57:17.984 INFO: GET 404 /controls/uploads/pubg poster2.jpg
+- 23:57:17.984 INFO: GET 404 /controls/uploads/sml_pubg poster2.jpg
+- 23:57:17.000 INFO: GET 404 /controls/uploads/battlefield-4-game-wide.jpg
+- 23:57:17.000 INFO: GET 404 /controls/uploads/sml_battlefield-4-game-wide.jpg
+- 23:57:17.000 INFO: GET 404 /controls/uploads/4233879-crysis-game-wallpapers.jpg
+- 23:57:17.000 INFO: GET 404 /controls/uploads/sml_4233879-crysis-game-wallpapers.jpg
+- 23:57:17.031 INFO: GET 404 /favicon.ico
+- 23:57:45.328 INFO: POST 200 /controls/add_family_check.php
+- 23:57:45.344 INFO: GET 404 /controls/uploads/pubg poster2.jpg
+- 23:57:45.344 INFO: GET 404 /controls/uploads/sml_pubg poster2.jpg
+- 23:57:45.344 INFO: GET 404 /controls/uploads/battlefield-4-game-wide.jpg
+- 23:57:45.359 INFO: GET 404 /controls/uploads/4233879-crysis-game-wallpapers.jpg
+- 23:57:45.359 INFO: GET 404 /controls/uploads/sml_battlefield-4-game-wide.jpg
+- 23:57:45.359 INFO: GET 404 /controls/uploads/sml_4233879-crysis-game-wallpapers.jpg
+- 23:57:45.375 INFO: GET 404 /favicon.ico
+- 23:58:56.422 INFO: GET 404 /controls/uploads/pubg poster2.jpg
+- 23:58:56.422 INFO: GET 404 /controls/uploads/sml_pubg poster2.jpg
+- 23:58:56.422 INFO: POST 200 /controls/add_family_check.php
+- 23:58:56.437 INFO: GET 404 /controls/uploads/battlefield-4-game-wide.jpg
+- 23:58:56.437 INFO: GET 404 /controls/uploads/sml_battlefield-4-game-wide.jpg
+- 23:58:56.437 INFO: GET 404 /controls/uploads/4233879-crysis-game-wallpapers.jpg
+- 23:58:56.437 INFO: GET 404 /controls/uploads/sml_4233879-crysis-game-wallpapers.jpg
+- 23:58:57.469 INFO: GET 404 /favicon.ico
+- 00:00:50.484 INFO: POST 200 /controls/add_family_check.php
+- 00:00:50.547 INFO: GET 404 /favicon.ico
+- 00:03:40.937 INFO: GET 404 /family_list.php
+- 00:03:40.937 INFO: POST 302 /controls/add_family_check.php
+- 00:03:40.000 INFO: GET 404 /favicon.ico
+- 00:04:10.109 INFO: GET 200 /add_family.php
+- 00:04:10.109 INFO: GET 200 /css/style.css
+- 00:04:10.109 INFO: GET 200 /css/spectre-icons.css
+- 00:04:10.109 INFO: GET 200 /css/spectre.css
+- 00:04:10.109 INFO: GET 200 /css/spectre-exp.css
+- 00:04:16.578 INFO: GET 200 /add_family.php
+- 00:04:20.562 INFO: GET 404 /family_list.php
+- 00:04:20.578 INFO: POST 302 /controls/add_family_check.php
+- 00:10:32.125 INFO: GET 404 /flist_family.php
+- 00:10:39.969 INFO: GET 200 /list_family.php
+- 00:10:39.156 INFO: GET 304 /js/service.js
+- 00:17:01.062 INFO: GET 304 /js/service.js
+- 00:17:01.078 INFO: GET 200 /add_family.php
+- 00:17:46.562 INFO: GET 200 /css/spectre-exp.css.map
+- 00:17:46.562 INFO: GET 200 /css/spectre-icons.css.map
+- 00:17:46.562 INFO: GET 200 /css/spectre.css.map
+- 00:18:44.453 INFO: GET 200 /add_family.php
+- 00:18:44.453 INFO: GET 200 /css/style.css
+- 00:18:45.484 INFO: GET 200 /css/spectre.css
+- 00:18:45.484 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 00:18:45.500 INFO: GET 200 /css/spectre-icons.css
+- 00:18:45.500 INFO: GET 200 /css/spectre-exp.css
+- 00:18:45.562 INFO: GET 200 /js/service.js
+- 00:18:45.640 INFO: GET 404 /favicon.ico
+- 00:18:45.703 INFO: GET 200 /add_family.php
+- 00:18:45.719 INFO: GET 200 /css/style.css
+- 00:18:45.719 INFO: GET 200 /css/spectre-exp.css
+- 00:18:45.719 INFO: GET 200 /css/spectre.css
+- 00:18:45.719 INFO: GET 200 /css/spectre-icons.css
+- 00:18:45.719 INFO: GET 200 /js/service.js
+- 00:18:45.719 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 00:18:45.781 INFO: GET 404 /favicon.ico
+- 00:18:45.844 INFO: GET 200 /add_family.php
+- 00:18:45.844 INFO: GET 200 /css/style.css
+- 00:18:45.844 INFO: GET 200 /css/spectre-icons.css
+- 00:18:45.844 INFO: GET 200 /css/spectre.css
+- 00:18:45.844 INFO: GET 200 /css/spectre-exp.css
+- 00:18:45.844 INFO: GET 200 /js/service.js
+- 00:18:45.844 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 00:31:47.094 DEBUG: WM_DESTROY
+- 00:31:47.094 DEBUG: RemoveBrowserWindow(): hwnd = 2755290
+- 00:31:47.094 INFO: Stopping Mongoose web server
+- 00:31:47.094 DEBUG: Mongoose webserver stopped immediately
+- 00:31:47.094 DEBUG: OnBeforeClose() hwnd=986932
+- 00:31:47.094 DEBUG: RemoveBrowserWindow(): hwnd = 986932
+- 00:31:47.094 DEBUG: GetBrowserWindow(): not found, hwnd = 986932
+- 00:31:47.094 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:31:47.094 DEBUG: Calling CefQuitMessageLoop()
+- 00:31:48.938 DEBUG: OnBrowserDestroyed()
+- 00:31:49.859 INFO: Ended application
+- 00:31:49.859 INFO: --------------------------------------------------------
+- 12:15:26.000 INFO: --------------------------------------------------------
+- 12:15:26.047 INFO: Started application
+- 12:15:26.047 INFO: Logging to: F:\Church_sw\debug.log
+- 12:15:26.047 INFO: Log level = DEBUG4
+- 12:15:26.047 INFO: Starting Mongoose 3.9c web server
+- 12:15:26.047 INFO: WWW directory: F:\Church_sw\www
+- 12:15:26.047 INFO: Index files: index.html,index.php
+- 12:15:26.047 INFO: CGI interpreter: F:\Church_sw\php\php-cgi.exe
+- 12:15:26.047 INFO: CGI pattern: **.php$
+- 12:15:26.047 INFO: Hide files patterns: 
+- 12:15:26.047 INFO: CGI environment variables set: TMP=C:\Users\Jerry\AppData\Local\Temp\,TEMP=C:\Users\Jerry\AppData\Local\Temp\,TMPDIR=C:\Users\Jerry\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 12:15:26.047 INFO: Web server url: http://127.0.0.1:56629/
+- 12:15:26.047 INFO: remote_debugging_port = 64832
+- 12:15:26.047 DEBUG: Command line string for the browser process: "F:\Church_sw\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="F:\Church_sw\debug.log" --remote-debugging-port=64832
+[1024/121526.428:WARNING:resource_bundle.cc(327)] locale_file_path.empty() for locale 
+[1024/121526.428:ERROR:main_delegate.cc(684)] Could not load locale pak for en-US
+[1024/121526.458:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.458:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.458:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.458:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.458:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.458:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.458:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.458:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.458:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.458:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.458:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.459:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.481:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.481:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.481:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.481:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.481:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.481:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.481:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.481:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.482:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.483:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.483:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.483:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.483:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+- 12:15:26.109 DEBUG: App::OnContextInitialized()
+- 12:15:26.109 DEBUG: Window max width/height = 1840/992
+- 12:15:26.109 DEBUG: GetBrowserWindow(): not found, hwnd = 133626
+- 12:15:26.109 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:15:26.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:15:26.125 DEBUG: StoreBrowserWindow(): hwnd = 133626
+- 12:15:26.172 DEBUG: ClientHandler::OnAfterCreated()
+- 12:15:26.172 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:15:26.187 DEBUG: OnLoadingStateChange: loading=1, url=
+[1024/121526.810:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121526.810:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+- 12:15:27.000 DEBUG: Command line string for the renderer process: "F:\Church_sw\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=780FFD3AB35B79721E595B1D7EA68470 --lang=en-US --lang=en-US --log-file="F:\Church_sw\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=780FFD3AB35B79721E595B1D7EA68470 --renderer-client-id=3 --mojo-platform-channel-handle=2384 /prefetch:1
+[1024/121527.604:WARNING:resource_bundle.cc(327)] locale_file_path.empty() for locale 
+[1024/121527.605:ERROR:main_delegate.cc(684)] Could not load locale pak for en-US
+- 12:15:27.031 DEBUG: OnBrowserCreated()
+- 12:15:27.000 DEBUG: Command line string for the gpu-process process: "F:\Church_sw\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="F:\Church_sw\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x174d --lang=en-US --log-file="F:\Church_sw\debug.log" --service-request-channel-token=D824834CA6C1A1A1E5D22CA2DB7EB3F2 --mojo-platform-channel-handle=1660 /prefetch:2
+[1024/121527.826:WARNING:resource_bundle.cc(327)] locale_file_path.empty() for locale 
+[1024/121527.826:ERROR:main_delegate.cc(684)] Could not load locale pak for en-US
+[1024/121527.865:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 12:15:29.047 INFO: GET 200 /
+- 12:15:30.281 INFO: GET 200 /css/style.css
+- 12:15:30.297 INFO: GET 200 /css/spectre-icons.css
+- 12:15:30.297 INFO: GET 200 /css/spectre-exp.css
+- 12:15:30.297 INFO: GET 200 /css/spectre.css
+- 12:15:30.297 INFO: GET 200 /js/service.js
+- 12:15:30.297 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 12:15:31.968 DEBUG: OnContextCreated()
+- 12:15:31.281 INFO: GET 200 /img/logo.jpg
+- 12:15:32.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56629/
+[1024/121536.462:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121536.463:ERROR:content_client.cc(257)] No localized string available for id 4122
+[1024/121536.463:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121536.463:ERROR:content_client.cc(257)] No localized string available for id 4123
+[1024/121536.463:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121536.463:ERROR:content_client.cc(257)] No localized string available for id 4125
+[1024/121536.463:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121536.463:ERROR:content_client.cc(257)] No localized string available for id 4126
+[1024/121536.463:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+[1024/121536.463:WARNING:resource_bundle.cc(525)] locale resources are not loaded
+- 12:15:42.031 INFO: GET 200 /
+- 12:15:42.031 INFO: GET 200 /css/style.css
+- 12:15:42.031 INFO: GET 200 /css/spectre-exp.css
+- 12:15:42.031 INFO: GET 200 /css/spectre-icons.css
+- 12:15:42.031 INFO: GET 200 /css/spectre.css
+- 12:15:42.031 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 12:15:42.031 INFO: GET 200 /js/service.js
+- 12:15:42.047 INFO: GET 200 /img/logo.jpg
+- 12:15:42.078 INFO: GET 404 /robots.txt
+- 12:15:43.687 INFO: GET 404 /favicon.ico
+- 12:16:10.609 INFO: POST 302 /controls/login_check.php
+- 12:16:11.719 INFO: GET 200 /home.php
+- 12:16:17.094 INFO: GET 404 /robots.txt
+- 12:16:17.250 INFO: GET 200 /add_family.php
+- 12:16:20.766 INFO: GET 200 /home.php
+- 12:16:24.453 INFO: GET 200 /add_family.php
+- 12:16:28.359 INFO: GET 200 /home.php
+- 12:16:30.250 INFO: GET 200 /add_family.php
+- 12:16:33.109 INFO: GET 200 /index.php
+- 12:16:41.187 INFO: POST 302 /controls/login_check.php
+- 12:16:41.266 INFO: GET 200 /home.php
+- 12:36:32.203 INFO: GET 200 /add_family.php
+- 12:36:38.734 INFO: GET 200 /list_family.php
+- 12:36:40.891 INFO: GET 200 /add_family.php
+- 15:53:50.125 INFO: GET 404 /robots.txt
+- 15:53:51.109 INFO: GET 200 /data_entry.php
+- 16:01:50.562 INFO: GET 200 /data_entry.php
+- 16:01:50.578 INFO: GET 200 /css/style.css
+- 16:01:50.594 INFO: GET 200 /js/service.js
+- 16:01:50.625 INFO: GET 200 /css/spectre.css
+- 16:01:51.625 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 16:01:51.641 INFO: GET 200 /css/spectre-exp.css
+- 16:01:51.641 INFO: GET 200 /css/spectre-icons.css
+- 16:01:51.687 INFO: GET 404 /favicon.ico
+- 16:03:54.203 INFO: GET 200 /data_entry.php
+- 16:03:54.219 INFO: GET 200 /css/style.css
+- 16:03:54.219 INFO: GET 200 /css/spectre.css
+- 16:03:54.219 INFO: GET 200 /css/spectre-exp.css
+- 16:03:54.219 INFO: GET 200 /css/spectre-icons.css
+- 16:03:54.219 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 16:03:54.219 INFO: GET 200 /js/service.js
+- 16:03:54.266 INFO: GET 404 /favicon.ico
+- 16:18:45.922 INFO: GET 200 /data_entry.php
+- 16:18:45.922 INFO: GET 200 /css/style.css
+- 16:18:45.937 INFO: GET 200 /css/spectre.css
+- 16:18:45.937 INFO: GET 200 /css/spectre-exp.css
+- 16:18:45.937 INFO: GET 200 /css/spectre-icons.css
+- 16:18:45.937 INFO: GET 200 /js/service.js
+- 16:18:45.937 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 16:18:45.016 INFO: GET 404 /favicon.ico
+- 16:19:04.172 INFO: GET 200 /data_entry.php
+- 16:19:04.187 INFO: GET 200 /css/style.css
+- 16:19:04.187 INFO: GET 200 /css/spectre.css
+- 16:19:04.187 INFO: GET 200 /css/spectre-icons.css
+- 16:19:04.187 INFO: GET 200 /js/service.js
+- 16:19:04.187 INFO: GET 200 /css/spectre-exp.css
+- 16:19:04.187 INFO: GET 200 /js/jquery-3.3.1.min.js
+- 16:19:04.250 INFO: GET 404 /favicon.ico
+- 16:19:11.391 INFO: GET 200 /data_entry.php
+- 16:19:11.453 INFO: GET 404 /favicon.ico
+- 16:19:20.453 INFO: GET 200 /data_entry.php
+- 16:19:20.484 INFO: GET 404 /favicon.ico
+- 16:20:10.047 INFO: GET 200 /data_entry.php
+- 16:20:10.062 INFO: GET 404 /favicon.ico
+- 16:24:51.156 INFO: GET 200 /data_entry.php
+- 16:24:51.203 INFO: GET 404 /favicon.ico
+- 16:26:13.750 INFO: GET 200 /data_entry.php
+- 16:26:13.781 INFO: GET 404 /favicon.ico
+- 16:26:13.219 INFO: GET 200 /data_entry.php
+- 16:26:13.250 INFO: GET 404 /favicon.ico
+- 16:26:13.422 INFO: GET 404 /robots.txt
+- 16:26:13.516 INFO: GET 200 /data_entry.php
+- 16:26:13.547 INFO: GET 404 /favicon.ico
+- 16:26:28.312 INFO: GET 200 /data_entry.php
+- 16:26:28.359 INFO: GET 404 /favicon.ico
+- 16:30:05.172 INFO: GET 200 /data_entry.php
+- 16:30:05.219 INFO: GET 404 /favicon.ico
+- 16:33:04.016 INFO: GET 200 /data_entry.php
+- 16:33:04.062 INFO: GET 404 /favicon.ico
+- 16:34:02.031 INFO: GET 200 /data_entry.php
+- 16:34:02.062 INFO: GET 404 /favicon.ico
+- 16:34:23.891 INFO: GET 200 /data_entry.php
+- 16:34:23.922 INFO: GET 404 /favicon.ico
+- 16:36:06.625 INFO: GET 200 /data_entry.php
+- 16:36:07.672 INFO: GET 404 /favicon.ico
+- 16:36:21.344 INFO: GET 200 /data_entry.php
+- 16:36:21.375 INFO: GET 404 /favicon.ico
+- 16:38:19.953 INFO: GET 200 /data_entry.php
+- 16:38:19.984 INFO: GET 404 /favicon.ico
+- 16:38:26.578 INFO: GET 200 /data_entry.php
+- 16:38:26.609 INFO: GET 404 /favicon.ico
+- 16:38:27.750 INFO: GET 200 /data_entry.php
+- 16:38:27.781 INFO: GET 404 /favicon.ico
+- 16:38:27.922 INFO: GET 200 /data_entry.php
+- 16:38:27.953 INFO: GET 404 /favicon.ico
+- 16:39:37.391 INFO: GET 200 /data_entry.php
+- 16:39:37.453 INFO: GET 404 /favicon.ico
+- 16:40:27.672 INFO: GET 200 /data_entry.php
+- 16:40:27.719 INFO: GET 404 /favicon.ico
+- 16:43:58.953 INFO: GET 200 /data_entry.php
+- 16:43:58.000 INFO: GET 404 /favicon.ico
+- 16:44:27.156 INFO: GET 200 /data_entry.php
+- 16:44:27.203 INFO: GET 404 /favicon.ico
+- 16:44:42.109 INFO: GET 200 /data_entry.php
+- 16:44:42.141 INFO: GET 404 /favicon.ico
+- 16:44:56.844 INFO: GET 200 /data_entry.php
+- 16:44:56.891 INFO: GET 404 /favicon.ico
+- 17:15:18.766 INFO: GET 200 /data_entry.php
+- 17:15:18.812 INFO: GET 404 /favicon.ico
+- 17:15:23.641 INFO: GET 404 /robots.txt
+- 17:15:23.719 INFO: GET 200 /data_entry.php
+- 17:15:23.750 INFO: GET 404 /favicon.ico
+- 17:15:23.094 INFO: GET 200 /data_entry.php
+- 17:15:23.125 INFO: GET 404 /favicon.ico
+- 17:15:23.281 INFO: GET 200 /data_entry.php
+- 17:15:23.312 INFO: GET 404 /favicon.ico
+- 17:15:23.453 INFO: GET 200 /data_entry.php
+- 17:15:23.484 INFO: GET 404 /favicon.ico
+- 17:15:23.625 INFO: GET 200 /data_entry.php
+- 17:15:24.656 INFO: GET 404 /favicon.ico
+- 17:15:24.781 INFO: GET 200 /data_entry.php
+- 17:15:24.828 INFO: GET 404 /favicon.ico
+- 17:15:24.937 INFO: GET 200 /data_entry.php
+- 17:15:24.969 INFO: GET 404 /favicon.ico
+- 17:15:24.094 INFO: GET 200 /data_entry.php
+- 17:15:24.125 INFO: GET 404 /favicon.ico
+- 17:15:24.375 INFO: GET 200 /data_entry.php
+- 17:15:24.406 INFO: GET 404 /favicon.ico
+- 17:15:25.687 INFO: GET 200 /data_entry.php
+- 17:15:25.719 INFO: GET 404 /favicon.ico
+- 17:15:25.328 INFO: GET 200 /data_entry.php
+- 17:15:25.375 INFO: GET 404 /favicon.ico
+- 17:15:25.500 INFO: GET 200 /data_entry.php
+- 17:15:25.531 INFO: GET 404 /favicon.ico
+- 17:16:38.406 INFO: GET 200 /data_entry.php
+- 17:16:38.453 INFO: GET 404 /favicon.ico
+- 17:16:50.406 INFO: GET 200 /data_entry.php
+- 17:16:50.437 INFO: GET 404 /favicon.ico
+- 17:17:01.469 INFO: GET 200 /data_entry.php
+- 17:17:01.516 INFO: GET 404 /favicon.ico
+- 17:17:02.109 INFO: GET 200 /data_entry.php
+- 17:17:02.156 INFO: GET 404 /favicon.ico
+- 17:17:02.297 INFO: GET 200 /data_entry.php
+- 17:17:02.328 INFO: GET 404 /favicon.ico
+- 17:17:02.516 INFO: GET 200 /data_entry.php
+- 17:17:02.547 INFO: GET 404 /favicon.ico
+- 17:17:03.266 INFO: GET 200 /data_entry.php
+- 17:17:03.297 INFO: GET 404 /favicon.ico
+- 17:17:03.484 INFO: GET 200 /data_entry.php
+- 17:17:03.500 INFO: GET 404 /favicon.ico
+- 17:17:03.625 INFO: GET 200 /data_entry.php
+- 17:17:04.656 INFO: GET 404 /favicon.ico
+- 17:17:07.828 INFO: GET 200 /data_entry.php
+- 17:17:07.859 INFO: GET 404 /favicon.ico
+- 17:17:27.984 INFO: GET 200 /data_entry.php
+- 17:17:27.016 INFO: GET 404 /favicon.ico
+- 17:17:27.187 INFO: GET 200 /data_entry.php
+- 17:17:27.234 INFO: GET 404 /favicon.ico
+- 17:17:28.687 INFO: GET 200 /data_entry.php
+- 17:17:28.734 INFO: GET 404 /favicon.ico
+- 17:17:28.984 INFO: GET 200 /data_entry.php
+- 17:17:28.016 INFO: GET 404 /favicon.ico
+- 17:17:30.500 INFO: GET 404 /robots.txt
+- 17:17:30.578 INFO: GET 200 /data_entry.php
+- 17:17:30.625 INFO: GET 404 /favicon.ico
+- 17:17:31.766 INFO: GET 200 /data_entry.php
+- 17:17:31.812 INFO: GET 404 /favicon.ico
+- 17:17:31.969 INFO: GET 200 /data_entry.php
+- 17:17:31.000 INFO: GET 404 /favicon.ico
+- 17:17:31.187 INFO: GET 200 /data_entry.php
+- 17:17:31.219 INFO: GET 404 /favicon.ico
+- 17:17:31.391 INFO: GET 200 /data_entry.php
+- 17:17:31.422 INFO: GET 404 /favicon.ico
+- 17:17:32.687 INFO: GET 200 /data_entry.php
+- 17:17:32.719 INFO: GET 404 /favicon.ico
+- 17:17:32.891 INFO: GET 200 /data_entry.php
+- 17:17:32.937 INFO: GET 404 /favicon.ico
+- 17:17:38.141 INFO: GET 200 /data_entry.php
+- 17:17:38.172 INFO: GET 404 /favicon.ico
+- 17:17:38.391 INFO: GET 200 /data_entry.php
+- 17:17:38.422 INFO: GET 404 /favicon.ico
+- 17:17:39.875 INFO: GET 200 /data_entry.php
+- 17:17:39.922 INFO: GET 404 /favicon.ico
+- 17:17:41.578 INFO: GET 200 /data_entry.php
+- 17:17:41.609 INFO: GET 404 /favicon.ico
+- 17:17:57.984 INFO: GET 200 /data_entry.php
+- 17:17:57.016 INFO: GET 404 /favicon.ico
+- 17:17:57.406 INFO: GET 200 /data_entry.php
+- 17:17:57.453 INFO: GET 404 /favicon.ico
+- 17:17:58.625 INFO: GET 200 /data_entry.php
+- 17:17:58.656 INFO: GET 404 /favicon.ico
+- 17:18:47.297 INFO: GET 200 /data_entry.php
+- 17:18:47.344 INFO: GET 404 /favicon.ico
+- 17:18:48.906 INFO: GET 200 /data_entry.php
+- 17:18:48.937 INFO: GET 404 /favicon.ico
+- 17:18:48.125 INFO: GET 200 /data_entry.php
+- 17:18:48.141 INFO: GET 404 /favicon.ico
+- 17:18:58.062 INFO: GET 404 /recipt_entry.php
+- 17:19:10.500 INFO: GET 200 /receipt_entry.php
+- 17:20:17.781 INFO: GET 404 /robots.txt
+- 17:20:17.859 INFO: GET 200 /receipt_entry.php
+- 17:20:17.891 INFO: GET 404 /favicon.ico
+- 17:20:17.187 INFO: GET 200 /receipt_entry.php
+- 17:20:17.219 INFO: GET 404 /favicon.ico
+- 17:20:41.344 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:20:45.922 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:21:32.312 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:21:32.359 INFO: GET 404 /favicon.ico
+- 17:21:33.875 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:21:33.906 INFO: GET 404 /favicon.ico
+- 17:21:33.094 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:21:33.125 INFO: GET 404 /favicon.ico
+- 17:33:36.437 INFO: GET 404 /robots.txt
+- 17:33:36.531 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:33:36.578 INFO: GET 404 /favicon.ico
+- 17:33:37.125 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:33:37.156 INFO: GET 404 /favicon.ico
+- 17:33:37.422 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:33:37.437 INFO: GET 404 /favicon.ico
+- 17:33:38.641 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:33:38.672 INFO: GET 404 /favicon.ico
+- 17:33:39.062 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:33:39.094 INFO: GET 404 /favicon.ico
+- 17:33:39.312 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:33:39.344 INFO: GET 404 /favicon.ico
+- 17:33:40.641 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:33:40.672 INFO: GET 404 /favicon.ico
+- 17:33:40.859 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:33:40.891 INFO: GET 404 /favicon.ico
+- 17:33:40.016 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:33:40.047 INFO: GET 404 /favicon.ico
+- 17:33:40.219 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:33:40.250 INFO: GET 404 /favicon.ico
+- 17:33:42.812 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:33:42.828 INFO: GET 404 /favicon.ico
+- 17:33:42.031 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:33:42.047 INFO: GET 404 /favicon.ico
+- 17:33:42.203 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:33:42.234 INFO: GET 404 /favicon.ico
+- 17:33:42.406 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:33:42.422 INFO: GET 404 /favicon.ico
+- 17:33:55.531 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 17:33:55.578 INFO: GET 404 /favicon.ico
+- 18:14:22.750 INFO: GET 404 /robots.txt
+- 18:14:22.016 INFO: POST 200 /receipt_entry.php?id=&entry_date=
+- 18:14:26.156 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 18:15:27.781 INFO: POST 200 /receipt_entry.php?id=&entry_date=
+- 18:15:27.828 INFO: GET 404 /favicon.ico
+- 18:15:29.484 INFO: POST 200 /receipt_entry.php?id=&entry_date=
+- 18:15:34.578 INFO: POST 200 /receipt_entry.php?id=&entry_date=
+- 18:15:34.625 INFO: GET 404 /favicon.ico
+- 18:18:54.312 INFO: GET 404 /robots.txt
+- 18:18:54.406 INFO: POST 200 /receipt_entry.php?id=&entry_date=
+- 18:18:54.469 INFO: GET 404 /favicon.ico
+- 18:19:55.406 INFO: POST 200 /receipt_entry.php?id=&entry_date=
+- 18:19:55.437 INFO: GET 404 /favicon.ico
+- 18:31:58.781 INFO: GET 200 /receipt_entry.php?id=&entry_date=
+- 18:32:04.875 INFO: GET 200 /data_entry.php
+- 18:32:04.922 INFO: GET 404 /favicon.ico
+- 18:33:47.562 INFO: GET 200 /data_entry.php
+- 18:33:48.656 INFO: GET 404 /favicon.ico
+- 18:34:56.516 INFO: GET 200 /data_entry.php
+- 18:34:56.562 INFO: GET 404 /favicon.ico
+- 18:35:30.094 INFO: GET 200 /data_entry.php
+- 18:35:30.141 INFO: GET 404 /favicon.ico
+- 18:35:39.281 INFO: GET 200 /css/style.css
+- 18:35:39.281 INFO: GET 200 /css/spectre.css
+- 18:35:39.297 INFO: GET 200 /add_family.php
+- 18:35:39.312 INFO: GET 200 /css/spectre-exp.css
+- 18:35:39.328 INFO: GET 200 /css/spectre-icons.css
+- 18:35:45.859 INFO: GET 200 /data_entry.php
+- 18:36:19.000 INFO: GET 200 /data_entry.php
+- 18:36:19.047 INFO: GET 404 /favicon.ico
+- 18:36:40.625 INFO: GET 200 /data_entry.php
+- 18:36:40.672 INFO: GET 404 /favicon.ico
+- 18:37:02.719 INFO: GET 200 /data_entry.php
+- 18:37:02.766 INFO: GET 404 /favicon.ico
+- 18:37:24.969 INFO: GET 200 /data_entry.php
+- 18:37:24.000 INFO: GET 404 /favicon.ico
+- 18:37:47.672 INFO: GET 200 /data_entry.php
+- 18:37:47.719 INFO: GET 404 /favicon.ico
+- 18:38:07.422 INFO: GET 200 /data_entry.php
+- 18:38:07.453 INFO: GET 404 /favicon.ico
+- 18:38:08.828 INFO: GET 200 /data_entry.php
+- 18:38:08.859 INFO: GET 404 /favicon.ico
+- 18:38:08.062 INFO: GET 200 /data_entry.php
+- 18:38:08.094 INFO: GET 404 /favicon.ico
+- 18:38:10.578 INFO: GET 200 /data_entry.php
+- 18:38:10.609 INFO: GET 404 /favicon.ico
+[1024/183822.437:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183827.442:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183832.448:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183837.450:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 18:38:38.875 INFO: GET 200 /data_entry.php
+- 18:38:38.922 INFO: GET 404 /favicon.ico
+[1024/183842.458:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183847.467:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183852.470:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183857.478:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183902.487:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183907.497:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183912.499:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183917.507:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183922.516:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183927.524:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183932.526:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183937.534:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183942.538:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183947.540:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183952.545:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/183957.549:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184002.551:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184007.556:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184012.560:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184017.569:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184022.573:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184027.577:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184032.579:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184037.581:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184042.588:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184047.591:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184052.594:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184057.601:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184102.609:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184107.618:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184112.626:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184117.635:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184122.643:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184127.650:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184128.618:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1024/184130.377:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 18:59:11.953 DEBUG: WM_DESTROY
+- 18:59:11.953 DEBUG: RemoveBrowserWindow(): hwnd = 133626
+- 18:59:11.953 INFO: Stopping Mongoose web server
+- 18:59:11.953 DEBUG: Mongoose webserver stopped immediately
+- 18:59:11.016 DEBUG: OnBeforeClose() hwnd=330302
+- 18:59:11.016 DEBUG: RemoveBrowserWindow(): hwnd = 330302
+- 18:59:11.016 DEBUG: GetBrowserWindow(): not found, hwnd = 330302
+- 18:59:11.016 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:59:11.016 DEBUG: Calling CefQuitMessageLoop()
+- 18:59:13.687 INFO: Ended application
+- 18:59:13.687 INFO: --------------------------------------------------------

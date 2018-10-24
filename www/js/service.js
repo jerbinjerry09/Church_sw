@@ -12,7 +12,7 @@
                  // 'value="Text Element ' + iCnt + '" /></td></tr>');
 
 
-                $('#tbody').append('<tr id="row-'+iCnt+'"><td>' + iCnt + '</td>'+
+                $('#tbody').append('<tr id="row-'+iCnt+'"><td>' + (iCnt+1) + '</td>'+
                 '<td>'+
                     '<div class="form-group">'+
                         '<input class="form-input"  id="head'+iCnt+'"  type="text" placeholder="Name" name="e_name[]"/>'+
@@ -59,7 +59,7 @@
                 '</td>'+
                 '<td>'+
                     '<div class="form-group">'+
-                        '<input class="form-input"  type="text" name="occupation[]" placeholder="Occupation">'+
+                        '<input class="form-input"  type="file" name="m_photo[]" >'+
                     '</div>'+
                 '</td>'+
                 '<td>'+

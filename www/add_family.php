@@ -7,7 +7,7 @@
 </script>
 
 
-    <form action="controls/add_family_check.php" name="family_form" method="POST">
+    <form action="controls/add_family_check.php" name="family_form" method="POST" enctype="multipart/form-data">
 
         <table id="ttable" class="table table-striped table-hover">
             <thead>
@@ -74,7 +74,7 @@
                 </td>    
                 <td>
                     <div class="form-group">
-                        <input class="form-input" type="text" name="occupation[]" placeholder="Occupation">
+                        <input class="form-input" type="file" name="m_photo[]">
                     </div>
                 </td>
                 <td>
