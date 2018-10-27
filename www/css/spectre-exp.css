@@ -502,13 +502,14 @@
   top: 0;
   transition: transform 0.25s ease;
   z-index: 200;
+  padding: 15px;
   left: 0;
   transform: translateX(-100%);
 }
 .off-canvas .off-canvas-content {
   flex: 1 1 auto;
   height: 100%;
-  padding: 0.4rem 0.4rem 0.4rem 4rem;
+  padding: 0.4rem 2rem 0.4rem 2rem;
 }
 .off-canvas .off-canvas-overlay {
   background: rgba(69, 77, 93, 0.1);

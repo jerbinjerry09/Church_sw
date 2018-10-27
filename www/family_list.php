@@ -3,53 +3,81 @@
 <?php include('breadcrumb.php'); ?>
   
 <div class="container">
+<div class="columns search_section">
+
+<div class="column col-4 ">
+<div class="form-group">
+<label class="form-label">Search by Barcode</label>
+  <input class="form-input" type="text" id="input-example-1" placeholder="Search by Barcode">
+</div>
+</div>
+    <div class="column col-4 ">
+    <div class="form-group">
+    <label class="form-label">Search by name</label>
+  <input class="form-input" type="text" id="input-example-1" placeholder="Search by name">
+</div>
+    </div>
+    <div class="column col-4">
+    <div class="form-group">
+    <label class="form-label">Search by place</label>
+  <input class="form-input" type="text" id="input-example-1" placeholder="Search by place">
+</div>
+    </div>
+  </div>
+  <div class="divider mb-20" ></div>
   <div class="columns">
-    <div class="column col-xs-4">
-    <div class="tile">
-                  <div class="tile-icon">
-                    <figure class="avatar avatar-lg"><img src="img/Church_of_South_India.png" alt="Avatar"></figure>
-                  </div>
-                  <div class="tile-content">
-                    <h4>Family Head Name</h4>
-                    <p class="tile-subtitle text-gray">Place</p>
-                    <dl class="list">
-                  <dt>description list term 1</dt>
-                  <dt>description list term 2</dt>
-                  <dt>description list term 3</dt>
-                </dl>
-                  </div>
-                  <div class="tile-action">
-                    <button class="btn btn-primary">Edit</button>
-                  </div>
-                </div></div>
-    <div class="column col-xs-4">
-    <div class="tile">
-                  <div class="tile-icon">
-                    <figure class="avatar avatar-lg"><img src="img/Church_of_South_India.png" alt="Avatar"></figure>
-                  </div>
-                  <div class="tile-content">
-                    <p class="tile-title">The Avengers</p>
-                    <p class="tile-subtitle text-gray">Earth's Mightiest Heroes joined forces to take on threats that were too big for any one hero to tackle...</p>
-                  </div>
-                  <div class="tile-action">
-                    <button class="btn btn-primary">Join</button>
-                    <button class="btn">Contact</button>
-                  </div>
-                </div></div>
-    <div class="column col-xs-4">
-    <div class="tile">
-                  <div class="tile-icon">
-                    <figure class="avatar avatar-lg"><img src="img/Church_of_South_India.png" alt="Avatar"></figure>
-                  </div>
-                  <div class="tile-content">
-                    <p class="tile-title">The Avengers</p>
-                    <p class="tile-subtitle text-gray">Earth's Mightiest Heroes joined forces to take on threats that were too big for any one hero to tackle...</p>
-                  </div>
-                  <div class="tile-action">
-                    <button class="btn btn-primary">Join</button>
-                    <button class="btn">Contact</button>
-                  </div>
-                </div></div>
+    <div class="column col-xs-4 user_individual">
+    <div class="tile tile-centered">
+  
+  
+  <div class="tile-content">
+    <div class="tile-title"> <figure class="avatar avatar-sm">
+  <img src="https://picturepan2.github.io/spectre/img/avatar-2.png" alt="...">
+</figure> Family head Name</div>
+    <div class="tile-subtitle text-gray">Place</div>
+    <div class="divider" ></div>
+    <div><span class="chip">Crime</span> <span class="chip">Crime</span> <span class="chip">Crime</span><span class="chip">Crime</span></div>
+  </div>
+  <div class="tile-action">
+    <button class="btn btn-link">
+    <i class="icon icon-edit"></i>  
+    </button>
+  </div>
+</div></div>
+
+    <div class="column col-xs-4 user_individual">
+    <div class="tile tile-centered">
+  
+  
+  <div class="tile-content">
+    <div class="tile-title">  <i class="icon icon-people centered"></i> Family head Name</div>
+    <div class="tile-subtitle text-gray">Place</div>
+    <div class="divider" ></div>
+    <div><span class="chip">Crime</span> <span class="chip">Crime</span> <span class="chip">Crime</span><span class="chip">Crime</span></div>
+  </div>
+  <div class="tile-action">
+    <button class="btn btn-link">
+    <i class="icon icon-edit"></i>  
+    </button>
+  </div>
+</div></div>
+
+    <div class="column col-xs-4 user_individual">
+    <div class="tile tile-centered">
+  
+  
+  <div class="tile-content">
+    <div class="tile-title">  <i class="icon icon-people centered"></i> Family head Name</div>
+    <div class="tile-subtitle text-gray">Place</div>
+    <div class="divider" ></div>
+    <div><span class="chip">Crime</span> <span class="chip">Crime</span> <span class="chip">Crime</span><span class="chip">Crime</span></div>
+  </div>
+  <div class="tile-action">
+    <button class="btn btn-link">
+    <i class="icon icon-edit"></i>  
+    </button>
+  </div>
+</div></div>
   </div>
 </div>
 

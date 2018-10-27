@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 ?>
 <!DOCTYPE html>
@@ -25,3 +24,4 @@ $file = basename($path, ".php"); // $file is set to "index"
 
   
     <body>
+        

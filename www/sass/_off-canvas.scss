@@ -28,6 +28,7 @@ $off-canvas-breakpoint: $size-lg !default;
         top: 0;
         transition: transform .25s ease;
         z-index: $zindex-2;
+        padding: 15px;
         @if $rtl==true {
             right: 0;
             transform: translateX(100%);
@@ -40,7 +41,7 @@ $off-canvas-breakpoint: $size-lg !default;
     .off-canvas-content {
         flex: 1 1 auto;
         height: 100%;
-        padding: $layout-spacing $layout-spacing $layout-spacing 4rem;
+        padding: $layout-spacing 2rem $layout-spacing 2rem;
     }
     .off-canvas-overlay {
         background: rgba($dark-color, .1);

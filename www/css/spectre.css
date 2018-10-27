@@ -2310,8 +2310,6 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .menu {
-  box-shadow: 0 0.05rem 0.2rem rgba(69, 77, 93, 0.3);
-  background: #fff;
   border-radius: 0.1rem;
   list-style: none;
   margin: 0;
@@ -3142,6 +3140,12 @@ a.text-error:visited {
   justify-content: center;
 }
 
+.flex-start {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
 .m-0 {
   margin: 0 !important;
 }
@@ -3322,6 +3326,36 @@ a.text-error:visited {
   padding-top: 0.4rem !important;
 }
 
+.m-20 {
+  margin: 20px !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.ml-20 {
+  margin-left: 20px !important;
+}
+
+.mr-20 {
+  margin-right: 20px !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mx-20 {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+
+.my-20 {
+  margin-bottom: 20px !important;
+  margin-top: 20px !important;
+}
+
 .s-rounded {
   border-radius: 0.1rem;
 }
@@ -3390,6 +3424,20 @@ a.text-error:visited {
   hyphens: auto;
   word-break: break-word;
   word-wrap: break-word;
+}
+
+.user_individual .tile {
+  border: 1px solid #efefef;
+  padding: 5px;
+  height: 100%;
+}
+
+.search_section {
+  padding: 20px 0;
+}
+
+.dashboard .card {
+  text-align: center;
 }
 
 /*# sourceMappingURL=spectre.css.map */

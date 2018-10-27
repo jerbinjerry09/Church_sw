@@ -4,7 +4,7 @@ $username=$_POST['username'];
 $pwd=$_POST['pwd'];
 if($username=='jesus' && $pwd=='jesus' || 1==1)
 {
-    $_SESSION['usrname']=$username;
+    $_SESSION['username']=$username;
      $_SESSION['login_error']='';
     header('location:../home.php');
 }

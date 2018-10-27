@@ -8,12 +8,25 @@
 
   <div id="sidebar-id" class="off-canvas-sidebar">
     <!-- off-screen sidebar -->
-    <ul>
-<li><a href="data_entry.php">Make Entry  </a></li>
-<li><a href="add_family.php">Add Family</a></li>
-<li><a href="list_family.php">Family List</a></li>
-<li><a href="index.php">Logout</a></li>
-</ul>
+
+<ul class="menu">
+                  <li class="menu-item">
+                    <div class="tile tile-centered">
+                      <div class="tile-icon"><i class="icon icon-people"></i></div>
+                      <div class="tile-content">Steve Rogers</div>
+                    </div>
+                  </li>
+                  <li class="divider"></li>
+                  <li class="menu-item">
+                    <div class="menu-badge">
+                      <label class="label label-primary">2</label>
+                    </div><a class="active" >My profile</a>
+                  </li>
+                  <li class="menu-item"><a href="data_entry.php">Make Entry  </a></li>
+<li class="menu-item"><a href="add_family.php">Add Family</a></li>
+<li class="menu-item"><a href="list_family.php">Family List</a></li>
+<li class="menu-item"><a href="index.php">Logout</a></li>
+                </ul>
   </div>
 
   <a class="off-canvas-overlay" href="#close"></a>
