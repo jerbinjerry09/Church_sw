@@ -42,6 +42,12 @@
     justify-content: flex-start;
 }
 
+.flex-space-between {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
 // Spacing
 @include margin-variant(0, 0);
 @include margin-variant(1, $unit-1);

@@ -3146,6 +3146,12 @@ a.text-error:visited {
   justify-content: flex-start;
 }
 
+.flex-space-between {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
 .m-0 {
   margin: 0 !important;
 }
