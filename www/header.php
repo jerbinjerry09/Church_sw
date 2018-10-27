@@ -18,7 +18,7 @@ $file = basename($path, ".php"); // $file is set to "index"
     <link rel="stylesheet" type="text/css" media="screen" href="css/spectre-exp.css" charset="utf-8"/>
     <link rel="stylesheet" type="text/css" media="screen" href="css/spectre-icons.css" charset="utf-8"/>
       <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-      <script language="JavaScript" src="js/tamil.js" type="text/JavaScript"></script>
+      <script language="JavaScript" src="js/service.js" type="text/JavaScript"></script>
       <script type="text/javascript">
        
     </script>
