@@ -1,12 +1,18 @@
 <?php
-session_start();
+if (!isset($_SESSION )) {
+  # code...
+  session_start();
+}
+
 ?>
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
 <?php
+
 $path = $_SERVER['REQUEST_URI'];        // $file is set to "index.php"
 $file = basename($path, ".php"); // $file is set to "index"
+
 ?>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

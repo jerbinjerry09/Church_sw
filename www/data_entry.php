@@ -1,7 +1,6 @@
-
 <?php include('header.php'); ?>
 <?php include('sidebar.php'); ?>
-<?php include('breadcrumb.php'); echo $_SESSION['username']?>
+<?php include('breadcrumb.php'); echo $_SESSION['username']; ?>
 
 
 <label>Family Id</label>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<label>Family Head</label>&nbsp;&nbsp;&nbsp;||
