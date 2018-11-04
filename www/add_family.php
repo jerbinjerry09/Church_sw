@@ -79,11 +79,11 @@
                 </td>
                 <td>
                     <div class="form-group">
-                        <label class="form-radio form-inline">
-                            <input type="radio" name="sts[0]" value="late" checked=""><i class="form-icon"></i> Late
+                        <label class="form-checkbox form-inline">
+                            <input type="radio" name="sts[0]" value="late" ><i class="form-icon"></i> Late
                         </label>
-                        <label class="form-radio form-inline">
-                            <input type="radio" name="sts[0]" value="1"><i class="form-icon"></i> Live
+                        <label class="form-checkbox form-inline" style="visibility: hidden;">
+                            <input type="radio" name="sts[0]" value="1" checked=""><i class="form-icon"></i> Live
                         </label>
                     </div>
                 </td>

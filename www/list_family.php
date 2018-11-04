@@ -17,13 +17,13 @@ $results = $db->query("SELECT * from family_list ");
 while ($row = $results->fetchArray()) {
     echo '<tr>'.
     		'<td>'.$row['family_id'].'</td><td>'.$row['family_head'].'</td><td>'.$row['place'].'</td>'.
-    	 '<tr>';
+    	 '</tr>';
 }
 
 ?>
 </table>
 
-
+பேராய
 
 
 

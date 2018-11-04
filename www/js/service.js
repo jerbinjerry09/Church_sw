@@ -20,7 +20,7 @@
                 '</td>'+
                 '<td>'+
                     '<div class="form-group">'+
-                        '<input class="form-input" id="e_name'+iCnt+'"  type="text" id="t_name1" placeholder="Tamil Name" name="t_name[]"/>'+
+                        '<input class="form-input" id="t_name'+iCnt+'"  type="text"  placeholder="Tamil Name" name="t_name[]"/>'+
                     '</div>'+
                 '</td>'+
                 '<td>'+
@@ -64,15 +64,53 @@
                 '</td>'+
                 '<td>'+
                     '<div class="form-group">  '+
-                        '<label class="form-radio form-inline">'+
+                        '<label class="form-checkbox form-inline" >'+
                             '<input type="radio" name="sts[' + iCnt + ']" value="late" ><i class="form-icon"></i> Late  '+
                         '</label>'+
-                        '<label class="form-radio form-inline">'+
-                            '<input type="radio" name="sts[' + iCnt + ']" value="1"><i class="form-icon"></i> Live '+
+                        '<label class="form-checkbox form-inline" style="visibility: hidden;">'+
+                            '<input type="radio" name="sts[' + iCnt + ']" value="1" checked="checked"><i class="form-icon"></i> Live '+
                         '</label>'+
                     '</div>'+
                 '</td>'+
             '</tr>');
+
+            }
+            // AFTER REACHING THE SPECIFIED LIMIT, DISABLE THE "ADD" BUTTON.
+            // (20 IS THE LIMIT WE HAVE SET)
+            else {      style="visibility: hidden;"
+                $(container).append('<label>Reached the limit</label>'); 
+                $('#btAdd').attr('class', 'bt-disable'); 
+                $('#btAdd').attr('disabled', 'disabled');
+            }
+        });
+        
+         /*==================Add extra place ==========================*/
+
+             var aCnt = 0;
+              // var container = $(document.createElement('tr'));
+              $('#btAdd-place').click(function() {
+            if (aCnt <= 19) {
+
+                aCnt = aCnt + 1;
+
+                // ADD TEXTBOX.
+                // $('#tbody').append('<tr><td><input type=text class="input" id=tb' + iCnt + ' ' +
+                 // 'value="Text Element ' + iCnt + '" /></td></tr>');
+
+
+                $('#tbody-place').append('<tr id="row-'+aCnt+'"><td>' + (aCnt+1) + '</td>'+
+                '<td>'+
+                    '<div class="form-group">'+
+                        '<input class="form-input"    type="text" placeholder="Name" name="e_name[]"/>'+
+                    '</div>'+
+                '</td>'+
+                '<td>'+
+                    '<div class="form-group">'+
+                        '<input class="form-input"   type="text"  placeholder="Tamil Name" name="t_name[]"/>'+
+                    '</div>'+
+                '</td>'+
+                
+                '</tr>');
 
             }
             // AFTER REACHING THE SPECIFIED LIMIT, DISABLE THE "ADD" BUTTON.
@@ -83,7 +121,63 @@
                 $('#btAdd').attr('disabled', 'disabled');
             }
         });
-        
+              /*==================End of add extra place====================*/
+               /*==================Add extra category ==========================*/
+
+             var aCnt = 0;
+              // var container = $(document.createElement('tr'));
+              $('#btAdd-cat').click(function() {
+            if (aCnt <= 19) {
+
+                aCnt = aCnt + 1;
+
+                // ADD TEXTBOX.
+                // $('#tbody').append('<tr><td><input type=text class="input" id=tb' + iCnt + ' ' +
+                 // 'value="Text Element ' + iCnt + '" /></td></tr>');
+
+
+                $('#tbody-cat').append('<tr id="row-'+aCnt+'"><td>' + (aCnt+1) + '</td>'+
+                '<td>'+
+                    '<div class="form-group">'+
+                        '<input class="form-input"    type="text" placeholder="Category Name" name="e_name[]"/>'+
+                    '</div>'+
+                '</td>'+
+                '<td>'+
+                    '<div class="form-group">'+
+                        '<input class="form-input"   type="text"  placeholder="Tamil Name" name="t_name[]"/>'+
+                    '</div>'+
+                '</td>'+
+                '<td>'+
+                    '<div class="form-group">'+
+                        '<input class="form-input"   type="text"  placeholder="Description" name="desc[]"/>'+
+                    '</div>'+
+                '</td>'+
+                '<td>'+
+                    '<div class="form-group">'+
+                        '<input class="form-input"   type="text"  placeholder="Frequency" name="freq[]"/>'+
+                    '</div>'+
+                '</td>'+
+                '<td>'+
+                    '<div class="form-group">'+
+                        '<select name="cat_type[]">'+
+                            '<option value="Income">Income</option>'+
+                            '<option value="Expence">Expence</option>'+
+                        '</select>'+
+                    '</div>'+
+                '</td>'+
+                
+                '</tr>');
+
+            }
+            // AFTER REACHING THE SPECIFIED LIMIT, DISABLE THE "ADD" BUTTON.
+            // (20 IS THE LIMIT WE HAVE SET)
+            else {      
+                $(container).append('<label>Reached the limit</label>'); 
+                $('#btAdd').attr('class', 'bt-disable'); 
+                $('#btAdd').attr('disabled', 'disabled');
+            }
+        });
+              /*==================End of add extra category====================*/
 /*=======================Selecting  Family Head ===================================> */ 
          $('.head').click(function()
          	{
@@ -94,8 +188,15 @@
          	});
 
 
-
-
+/*======================== end of Selecting  Family Head  ===========================================*/
+$('#input-barcode').change(function()
+    {
+        // alert();
+        var input_date=$('#input-date').val();
+        var cat=$('#cat').val();
+        var f_id=$('#f_id').val();
+        alert(input_date+'------'+cat+'-------'+f_id);
+    });
 
 
 

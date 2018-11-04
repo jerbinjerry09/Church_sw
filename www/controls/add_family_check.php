@@ -11,7 +11,8 @@ $dobt 			= 	$_POST['dobp'];
 $relation 		= 	$_POST['relation'];
 $head 			= 	$_POST['head'];
 $sex 			= 	$_POST['sex'];
-$status 		= 	$_POST['sts'];
+$status 		= (isset($_POST['sts'])) ? $_POST['sts'] : '';
+
 // $occupation 	= 	$_POST['occupation'];
 $area_code 		= 	str_pad($place[0], 3, '0', STR_PAD_LEFT);
 $area 			= 	$place[1];
@@ -51,7 +52,9 @@ for($i=0;$i<$count;$i++)
 		$sql1.='; ';
 	}
 
-      if (isset ($_FILES['m_photo'] )){
+if ($_FILES['m_photo']['size'][$i] == 0 && $_FILES['m_photo']['error'] == 0)
+{
+      if ($_FILES['m_photo'] ['error'] > UPLOAD_ERR_OK){
           $imagename = $_FILES['m_photo']['name'][$i];
           $source = $_FILES['m_photo']['tmp_name'][$i];
           $target = "uploads/".$imagename;
@@ -97,6 +100,8 @@ for($i=0;$i<$count;$i++)
       	echo "image error";
       	die();
       }
+    }
+
 
 
 }

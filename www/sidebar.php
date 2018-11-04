@@ -25,6 +25,7 @@
                   <li class="menu-item"><a href="data_entry.php">Make Entry  </a></li>
 <li class="menu-item"><a href="add_family.php">Add Family</a></li>
 <li class="menu-item"><a href="list_family.php">Family List</a></li>
+<li class="menu-item"><a href="settings.php">Settings</a></li>
 <li class="menu-item"><a href="index.php">Logout</a></li>
                 </ul>
   </div>
