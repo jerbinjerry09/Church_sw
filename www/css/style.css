@@ -7,3 +7,13 @@ body {
     display: flex;
     align-items: center;
 }
+.receipt_panel{
+	display: none;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    height: 5%;
+}

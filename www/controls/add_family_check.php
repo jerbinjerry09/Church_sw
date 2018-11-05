@@ -16,7 +16,7 @@ $status 		= (isset($_POST['sts'])) ? $_POST['sts'] : '';
 // $occupation 	= 	$_POST['occupation'];
 $area_code 		= 	str_pad($place[0], 3, '0', STR_PAD_LEFT);
 $area 			= 	$place[1];
-$family_id 		= 	substr($area, 0, 2).str_pad(rand(0,500), 3, '0', STR_PAD_LEFT).rand(500,500);
+$family_id 		= 	substr($area, 0, 2).str_pad(rand(0,500), 3, '0', STR_PAD_LEFT).rand(500,1000);
 $phone 			= 	SQLite3::escapeString($_POST['phone']);
 $place 			= 	SQLite3::escapeString($_POST['place']);
 $address 		= 	SQLite3::escapeString($_POST['address']);
@@ -26,7 +26,7 @@ $image_file=$_FILES['m_photo'];
 
 $head_id='';
 
-$sql1="insert into family_members (family_id,member_id,member_name,m_name_t,gender,do_birth,do_baptism,relation,status) values";
+$sql1="insert into family_members (family_id,member_id,member_name,m_name_t,gender,do_birth,do_baptism,relation,member_type,status) values";
 $count=count($_POST['e_name']);
 for($i=0;$i<$count;$i++)
 {
@@ -36,6 +36,7 @@ for($i=0;$i<$count;$i++)
 	{
 		$head_id 		.=	$member_id;
 		//echo 'H'.$i.'==='.$_POST['head'];
+    $head_sts=1;
 	}
 	else{
 		$head_id 		.=	't';
@@ -43,7 +44,7 @@ for($i=0;$i<$count;$i++)
 	}
 
 	$ename[$i];
-	$sql1.="('".$family_id."','".$member_id."','".$ename[$i]."','".$tname[$i]."','".$sex[$i]."','".$dob[$i]."','".$dobt[$i]."','".$relation[$i]."','".$status[$i]."')";
+	$sql1.="('".$family_id."','".$member_id."','".$ename[$i]."','".$tname[$i]."','".$sex[$i]."','".$dob[$i]."','".$dobt[$i]."','".$relation[$i]."',".$head_sts.",'".$status[$i]."')";
 	if($count>($i+1))
 	{
 		$sql1.=', ';

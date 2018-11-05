@@ -1,4 +1,5 @@
  $(document).ready(function() {
+   
 
              var iCnt = 0;
               // var container = $(document.createElement('tr'));
@@ -191,12 +192,189 @@
 /*======================== end of Selecting  Family Head  ===========================================*/
 $('#input-barcode').change(function()
     {
+        $('#loader').show();
         // alert();
+        var id1=$(this).val();
+
         var input_date=$('#input-date').val();
         var cat=$('#cat').val();
         var f_id=$('#f_id').val();
-        alert(input_date+'------'+cat+'-------'+f_id);
+        $('#input-barcode').val('');
+        //alert(id1);
+        $.ajax({
+            type:"GET",
+             url: "../controls/populate-family.php", 
+            data:{id:id1},
+            dataType: "json",
+            success: function(data)
+            {
+                //$("#div1").html(result);
+                //alert(data);
+                $('#member_list').html('');
+                $('#family_id_title').html(data['family_id']);
+                    $('#family_place_title').html(data['place']);
+                    $('#family_id').val(data['family_id']);
+                    $('#receipt_no').html(data['receipt']+1);
+                for (var i = data['member'].length -1; i >= 0; i--) {
+                   
+                    if(data['member_id']==data['member'][i].id)
+                    {
+                        var check=' checked="" ';
+                        var mem=1;
+                        $('#member_id').val(data['member'][i].id);
+                        // alert();
+                    }
+                    else if((data['member'][i].member_type==1)&&mem!=1){
+                        $('#member_id').val(data['member'][i].id);
+                        var check=' checked="" ';
+                    }
+                    else
+                    {
+                    if(data['member'][i].member_type==1)
+                    {
+                    
+                    // alert(data['member_id']+data['member'][i].id);
+                    $('#family_head_title').html(data['member'][i].name+'  <a href="contrls/edit_family.php?id='+data['family_id']+'"<i class="ml-2 icon icon-edit"></i>');
+                    // $('#member_id').val(data['member'][i].id);
+
+                    }
+                    else{
+                    var check=' ';
+                    }
+                }
+
+                    $('#member_list').prepend('<div class="tile tile-centered mt-2">'+
+                                                '<div class="tile-content">'+
+                                                    '<div class="tile-title text-bold">'+
+                                                    '<div class="form-group">'+
+                                                        '<label class="form-radio form-inline">'+
+                                                            '<input type="radio" name="member" '+check+'><i class="form-icon"></i> '+data['member'][i].name+
+                                                        '</label>'+
+                                                        '</div>'+
+                                                    '</div>'+
+                        
+                                                '</div>'+
+                    
+                                                '</div>');
+                    if(data['cat']=='6')
+                    {
+                        $('.receipt_panel').css('display','none');
+                        $('#bday_panel').show();
+                        $('#category_id').val(data['cat']);
+                        $('member_id').val(data['member_id']);
+                    }
+                    else if(data['cat']=='0')
+                    {
+                        $('.receipt_panel').css('display','none');
+                        $('#default_panel').show();
+                        $('#category_id').val(data['cat']);
+                    }
+                    else{
+                        $('.receipt_panel').css('display','none');
+                        $('#common_panel').show();
+                        $('#category_id').val(data['cat']);
+                    }
+                }
+                // alert(JSON.stringify(data['member'][0].name));
+                // alert(data['member'].[0].name);
+
+            },
+             error: function(errorThrown) {
+                alert(JSON.stringify(errorThrown));
+             }
+        });
+        // alert(input_date+'------'+cat+'-------'+f_id);
     });
+
+ /*====================== Receipt Entry ================== */
+ $('#default_submit').click(function()
+ {
+ 
+    alert();
+    $('#loader').show();
+    var amt1         = $('#monthly_amt').val();
+    var desc1        = $('#monthly_desc').val();
+    var amt2       = $('#msnry_amt').val();
+    var desc2      = $('#msnry_desc').val();
+    var amt3        = $('#rice_amt').val();
+    var desc3       = $('#rice_desc').val();
+    var f_id   = $('#family_id').val();
+    var m_id   = $('#member_id').val();
+    var r_date = $('#receipt_date').val();
+    $.ajax({
+            type:"POST",
+             url: "../controls/receipt_check.php", 
+            data:{
+                cat_id:0, 
+                monthly_amt:amt1,
+                monthly_desc:desc1,
+                msnry_amt:amt2,
+                msnry_desc:desc2,
+                rice_amt:amt3,
+                rice_desc:desc3,
+                family_id:f_id,
+                member_id:m_id,
+                receipt_date:r_date,
+            },
+            // dataType: "json",
+            success: function(data)
+            {
+                //alert(JSON.stringify(data));
+                $('.clear').val('');
+                $('.receipt_panel').hide();
+                $('#test').html("Data Inserted");
+            },
+            error:function(xhtp)
+            {
+                alert('error'+JSON.stringify(xhtp));
+                //$('#test').html(JSON.stringify(xhtp));
+            }
+        });
+
+ });
+
+
+
+
+ $('#bday_submit').click(function()
+ {
+ 
+    alert();
+    $('#loader').show();
+    var amt1         = $('#bday_amt').val();
+    var desc1        = $('#bday_desc').val();
+    var cat_id1     = $('#category_id').val();
+  
+    var f_id   = $('#family_id').val();
+    var m_id   = $('#member_id').val();
+    var r_date = $('#receipt_date').val();
+    $.ajax({
+            type:"POST",
+             url: "../controls/receipt_check.php", 
+            data:{
+                cat_id:cat_id1, 
+                bday_amt:amt1,
+                bday_desc:desc1,
+                family_id:f_id,
+                member_id:m_id,
+                receipt_date:r_date,
+            },
+            // dataType: "json",
+            success: function(data)
+            {
+                //alert(JSON.stringify(data));
+                $('.clear').val('');
+                $('.receipt_panel').hide();
+                $('#test').html("Data Inserted");
+            },
+            error:function(xhtp)
+            {
+                alert('error'+JSON.stringify(xhtp));
+                //$('#test').html(JSON.stringify(xhtp));
+            }
+        });
+
+ });
 
 
 
