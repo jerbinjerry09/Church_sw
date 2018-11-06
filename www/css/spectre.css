@@ -3446,4 +3446,18 @@ a.text-error:visited {
   text-align: center;
 }
 
+@media screen, print {
+  .barcode_container .barcode {
+    text-align: center;
+  }
+  .barcode_container .barcode .name {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .barcode_container .barcode .place {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+}
+
 /*# sourceMappingURL=spectre.css.map */

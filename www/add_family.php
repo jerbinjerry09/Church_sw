@@ -82,7 +82,7 @@
                         <label class="form-checkbox form-inline">
                             <input type="radio" name="sts[0]" value="late" ><i class="form-icon"></i> Late
                         </label>
-                        <label class="form-checkbox form-inline" style="visibility: hidden;">
+                        <label class="form-checkbox form-inline" style="display: none;">
                             <input type="radio" name="sts[0]" value="1" checked=""><i class="form-icon"></i> Live
                         </label>
                     </div>
