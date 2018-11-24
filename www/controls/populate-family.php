@@ -11,8 +11,8 @@ $length=sizeof($data);
 // $id=$_GET['id'];
 $member=array();
 //$member[]=array();
-$result=$db->query("SELECT * FROM  family_members where family_id='".$id."' ");
-//echo "SELECT * FROM  family_members where family_id='".$id."' ";
+$result=$db->query("SELECT * FROM  family_members where family_id='".ucfirst($id)."' ");
+// echo "SELECT * FROM  family_members where family_id='".ucfirst($id)."' ";
 $i=0;
 // $prop = new stdClass();
 // $prop=array();
@@ -49,15 +49,11 @@ else{
 // print_r($member);
 
 function getPlace($id){
-	class MyDB1 extends SQLite3{
-    function __construct()
-    {
-        $this->open('../../church.db');
-    }
-}
-$db1 = new MyDB1();
-$result1=$db1->query("SELECT place FROM  family_list where family_id='".$id."' ");
+	
+$db = new MyDB();
+$result1=$db->query("SELECT place FROM  family_list where family_id='".$id."' ");
 $row1=$result1->fetchArray();
+$db->close();
 return $row1['place'];
 
 
@@ -66,15 +62,11 @@ return $row1['place'];
 }
 function getRecipt()
 {
-	class MyDB12 extends SQLite3{
-    function __construct()
-    {
-        $this->open('../../church.db');
-    }
-}
-$db12 = new MyDB1();
-$result12=$db12->query("SELECT id from receipt order by id DESC limit 1");
+	
+$db = new MyDB();
+$result12=$db->query("SELECT id from receipt order by id DESC limit 1");
 $row12=$result12->fetchArray();
+$db->close();
 return $row12['id'];
 
 

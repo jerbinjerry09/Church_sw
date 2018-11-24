@@ -23,12 +23,30 @@ $file = basename($path, ".php"); // $file is set to "index"
     <link rel="stylesheet" type="text/css" media="screen" href="css/spectre-exp.css" charset="utf-8"/>
     <link rel="stylesheet" type="text/css" media="screen" href="css/spectre-icons.css" charset="utf-8"/>
       <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-      <script type="text/javascript" src="js/choosen.js"></script>
+      <!-- <script type="text/javascript" src="js/choosen.js"></script> -->
       <script language="JavaScript" src="js/service.js" type="text/JavaScript"></script>
       <script type="text/javascript">
        
     </script>
 
+
+
+
+
+<!--Keyboard -->
+
+
+  <link href="keyboard/docs/css/jquery-ui.min.css" rel="stylesheet">
+  <script src="keyboard/docs/js/jquery-latest.min.js"></script>
+  <script src="keyboard/docs/js/jquery-ui.min.js"></script>
+
+  <link href="keyboard/css/keyboard.css" rel="stylesheet">
+  <script src="keyboard/js/jquery.keyboard.js"></script>
+
+  <script src="keyboard/docs/js/demo.js"></script>
+
+
+<!--End Keyboard -->
   
     <body>
         

@@ -14,6 +14,7 @@
      font-family: myFirstFont;
 }
 </style>
+  <input id="text" type="text"  style="display: none;" placeholder=" Enter something...">
 
     <form action="controls/ctrl-add-place.php" name="family_form" method="POST" enctype="multipart/form-data">
 
@@ -35,7 +36,7 @@
                 </td>
                 <td>
                     <div class="form-group">
-                        <input class="form-input text" type="text" id="t_name1[]" name="t_name[]" placeholder="Tamil Name">
+                        <input class="form-input text password-opener password tamil" type="text" id="t_name1[]" name="t_name[]" placeholder="Tamil Name">
                     </div>
                 </td>
                

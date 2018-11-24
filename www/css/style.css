@@ -17,3 +17,10 @@ body {
     width: 5%;
     height: 5%;
 }
+   @font-face {
+    font-family: tamil_font;
+    src: url(../fonts/tamil.ttf);
+}
+.tamil{
+     font-family: tamil_font;
+}

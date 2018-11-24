@@ -44,8 +44,8 @@ while ($row = $results->fetchArray()) {
   <div class="tile-content">
     <div class="tile-title"> <figure class="avatar avatar-sm">
   <img src="https://picturepan2.github.io/spectre/img/avatar-2.png" alt="...">
-</figure><?php echo $row['family_head']; ?></div>
-    <div class="tile-subtitle text-gray"><?php echo $row['place']; ?></div>
+</figure><span class="1 tamil"><?php echo $row['family_head']; ?></span></div>
+    <div class="tile-subtitle text-gray tamil"><?php echo getPlace($row['place']); ?></div>
     <div class="divider" ></div>
     <div>
 <?php
@@ -88,3 +88,25 @@ while($member = $mem_result->fetchArray())
 </div>
 
 <?php include('footer.php'); ?>
+
+
+<?php
+
+function getPlace($id)
+{
+  $op='';
+    $db1 = new MyDB();
+     $results1 = $db1->query("SELECT tamil from place where id=$id");
+     // echo "SELECT tamil from place where id=".$id;
+     while ($row1 = $results1->fetchArray()) {
+
+        $op= $row1['tamil'];
+     }
+     $db1->close();
+     return $op;
+     // $db1->close();
+
+}
+
+
+?>

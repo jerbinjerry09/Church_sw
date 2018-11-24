@@ -11,7 +11,10 @@ $dobt 			= 	$_POST['dobp'];
 $relation 		= 	$_POST['relation'];
 $head 			= 	$_POST['head'];
 $sex 			= 	$_POST['sex'];
-$status 		= (isset($_POST['sts'])) ? $_POST['sts'] : '';
+$ini      = $_POST['ini'];
+$title    = $_POST['sir_name'];
+
+$cat = $_POST['category'];
 
 // $occupation 	= 	$_POST['occupation'];
 $area_code 		= 	str_pad($place[0], 3, '0', STR_PAD_LEFT);
@@ -26,7 +29,7 @@ $image_file=$_FILES['m_photo'];
 
 $head_id='';
 
-$sql1="insert into family_members (family_id,member_id,member_name,m_name_t,gender,do_birth,do_baptism,relation,member_type,status) values";
+$sql1="insert into family_members (family_id,member_id,title,ini,member_name,m_name_t,gender,do_birth,do_baptism,relation,member_type,status) values";
 $count=count($_POST['e_name']);
 for($i=0;$i<$count;$i++)
 {
@@ -40,11 +43,13 @@ for($i=0;$i<$count;$i++)
 	}
 	else{
 		$head_id 		.=	't';
+     $head_sts=0;
 
 	}
+$status     = (isset($_POST['sts'][$i])) ? $_POST['sts'][$i] : 0;
 
 	$ename[$i];
-	$sql1.="('".$family_id."','".$member_id."','".$ename[$i]."','".$tname[$i]."','".$sex[$i]."','".$dob[$i]."','".$dobt[$i]."','".$relation[$i]."',".$head_sts.",'".$status[$i]."')";
+	$sql1.="('".$family_id."','".$member_id."','".$title[$i]."','".$ini[$i]."','".$ename[$i]."','".$tname[$i]."','".$sex[$i]."','".$dob[$i]."','".$dobt[$i]."','".$relation[$i]."',".$head_sts.",'".$status."')";
 	if($count>($i+1))
 	{
 		$sql1.=', ';
@@ -106,10 +111,10 @@ if ($_FILES['m_photo']['size'][$i] == 0 && $_FILES['m_photo']['error'] == 0)
 
 
 }
-$sql="insert into family_list (family_id,phone,place,address,family_head,head_id) values('$family_id','$phone','$area','$address','$family_head','$head_id'); ";
+$sql="insert into family_list (family_id,phone,place,address,family_head,family_type,head_id) values('$family_id','$phone','$place[0]','$address','$family_head','$cat','$head_id'); ";
 
 $sql=$sql.$sql1;
-//echo $sql;
+// echo $sql;
 if($db->exec($sql))
 {
     header('location:../list_family.php');

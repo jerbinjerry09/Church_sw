@@ -1,10 +1,16 @@
 <?php include('header.php'); ?>
 <?php include('sidebar.php'); ?>
-<?php include('breadcrumb.php'); ?>
+<?php include('breadcrumb.php'); 
+include('db_info.php');?>
     <a href="home.php">Home </a>
     <script language="javascript">
 
+
 </script>
+<style type="text/css">
+    
+</style>
+<input id="text" type="text"  style="display: none;" placeholder=" Enter something...">
 
 
     <form action="controls/add_family_check.php" name="family_form" method="POST" enctype="multipart/form-data">
@@ -12,6 +18,8 @@
         <table id="ttable" class="table table-striped table-hover">
             <thead>
                 <th></th>
+                <th>Sir Name</th>
+                <th>Initial</th>
                 <th>Member Name</th>
                 <th>Tamil Name</th>
                 <th>Date of Birth</th>
@@ -28,15 +36,31 @@
                 <td>1</td>
                 <td>
                     <div class="form-group">
+                        <select class="form-select"  name="sir_name[]">
+                            <option value="Mr">Mr.</option>
+                            <option value="Mrs">Mrs.</option>
+                            <option value="Miss">Miss</option>
+                            
+                        </select>
+                    </div>
+                </td>
+                <td>
+
+                    <div class="form-group">
+                        <input class="form-input" id="ini0" type="text" name="ini[]"placeholder="Initial">
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group">
                         <input class="form-input" id="head0" type="text" name="e_name[]"placeholder="Name">
                     </div>
                 </td>
                 <td>
                     <div class="form-group">
-                        <input class="form-input" type="text" id="t_name1[]" name="t_name[]" placeholder="Tamil Name">
+                        <input class="form-input password-opener password tamil" type="text" id="t_name1[]" name="t_name[]" placeholder="Tamil Name">
                     </div>
                 </td>
-                <td>
+                <td> 
                     <div class="form-group">
                         <input class="form-input"  type="date" name="dob[]" placeholder="Date of birth">
                     </div>
@@ -54,7 +78,7 @@
                 </td>
                 <td>
                     <div class="form-group">
-                        <select class="form-select"  name="relation[0]">
+                        <select class="form-select"  name="relation[]">
                             <option value="W/o">W/o</option>
                             <option value="S/o">S/o</option>
                             <option value="D/o">D/o</option>
@@ -80,11 +104,11 @@
                 <td>
                     <div class="form-group">
                         <label class="form-checkbox form-inline">
-                            <input type="radio" name="sts[0]" value="late" ><i class="form-icon"></i> Late
+                            <input type="checkbox" name="sts[]" value="Late" ><i class="form-icon"></i> Late
                         </label>
-                        <label class="form-checkbox form-inline" style="visibility: hidden;">
+                        <!-- <label class="form-checkbox form-inline" style="display: none;">
                             <input type="radio" name="sts[0]" value="1" checked=""><i class="form-icon"></i> Live
-                        </label>
+                        </label> -->
                     </div>
                 </td>
             </tr>
@@ -94,6 +118,7 @@
         <button type="button" id="btAdd" class="btn btn-primary btn-lg mt-2 centered"><i class="icon icon-plus"></i> Add</button>
         <table class="table table-striped mt-2">
             <tr>
+                <th>Category</th>
                 <th>Area</th>
                 <th>Phone Number</th>
                 <th>Address</th>
@@ -101,13 +126,15 @@
             <tr>
                 <td>
                     <div class="form-group">
-                        <select class="form-select"  name="place">
-                            <option value="-">Select an Area</option>
-                            <option value="2-place1">place1</option>
-                            <option value="3-place2">place2</option>
-                            <option value="4-place3">place3</option>
-                            <option value="5-place4">place4</option>
-                            <option value="6-place5">place5</option>
+                        <select class="form-select"  name="category">
+                             <?php  echo getCategory(); ?>
+                        </select>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group">
+                        <select class="form-select tamil"  name="place">
+                           <?php  echo getPlace(); ?>
                         </select>
                     </div>
                 </td>
@@ -128,3 +155,30 @@
     </form>
 
 <?php include('footer.php'); ?>
+
+<?php
+function getPlace()
+{
+    
+    $db = new MyDB();
+ $results = $db->query("SELECT distinct * from place ;");
+  $op1='';
+  while ($row = $results->fetchArray()) {
+    $op1.='<option value="'.$row['id'].'-'.$row['english'].'">'.$row['tamil'].'</option>';
+}
+$db->close();
+return $op1;
+}
+function getCategory()
+{
+    // include('db_info.php');
+    $db = new MyDB();
+ $results = $db->query("SELECT distinct * from family_category ;");
+  $op1='';
+  while ($row = $results->fetchArray()) {
+    $op1.='<option value="'.$row['id'].'">'.$row['english'].'</option>';
+}
+$db->close();
+return $op1;
+}
+?>

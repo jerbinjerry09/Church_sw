@@ -32,7 +32,7 @@ for($i=0;$i<$count;$i++)
 //echo $sql;
 if($db->exec($sql1))
 {
-    header('location:../list_family.php');
+    header('location:../add-category.php');
    // echo $sql;
 }
 else{

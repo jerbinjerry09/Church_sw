@@ -13,11 +13,13 @@ function Header()
     // $this->Image('logo.png',10,-1,70);
     // $this->SetFont('tamil');
     $this->AddFont('tamil','','tamil.ttf',true);
-	$this->SetFont('tamil','',14);
+    $this->SetFont('tamil','',14);
     // Move to the right
     $this->Cell(80);
+    $this->SetX(10);
+    $this->SetFontSize(20);
     // Title
-    $this->Cell(80,10,'ghij',1,0,'C');
+    $this->Cell(0,10,'                        '.'rp.v!;.I. nrfu rig KGnfhL ',0);
     // Line break
     $this->Ln(20);
 }
@@ -47,6 +49,7 @@ $pdf->AddPage();
 //foter page
 $pdf->AliasNbPages();
 $pdf->SetFont('Arial','B',8);
+// $pdf->SetFont('tamil','',14);
 // foreach($header as $heading) {
 // $pdf->Cell(40,12,$display_heading[$heading['Field']],1);
 // }
@@ -55,35 +58,52 @@ $pdf->SetFont('Arial','B',8);
 // // $result = $results->fetchArray();
 // print_r($result);
 // }
+$pdf->SetFont('Arial','B',8);
+$pdf->Cell(10,6,'S.No',1);
+$pdf->SetFont('Arial','B',8);
+$pdf->Cell(30,6,'Family Id',1);
+$pdf->Cell(10,6,'','L,T,B');
+$pdf->Cell(70,6,'Family Head','R,T,B');
+$pdf->Cell(70,6,'Place',1);
 while ($row = $results->fetchArray()) {
+    $ini=getInt($row['head_id']);
 // foreach($result as $row) {
 $pdf->Ln();
-foreach($row as $column=>$item)
-{
-	if (is_int($column)) {
-		$pdf->Cell(30,6,$item,1);
-	}
+$pdf->SetFont('Arial','B',8);
+$pdf->Cell(10,6,$row['id']-1,1);
+$pdf->SetFont('Arial','B',8);
+$pdf->Cell(30,6,$row['family_id'],1);
+$pdf->Cell(10,6,$ini,'L,T,B');
+$pdf->SetFont('tamil','',14);
+$pdf->Cell(70,6,$row['family_head'],'R,T,B');
+$pdf->SetFont('tamil','',14);
+$pdf->Cell(70,6,$row['t_area'],1);
+// foreach($row as $column=>$item)
+// {
+//  if (is_int($column)) {
+//      $pdf->Cell(30,6,$item,1);
+//  }
+// }
 }
-}
-while ($row = $results->fetchArray()) {
-// foreach($result as $row) {
-$pdf->Ln();
-foreach($row as $column=>$item)
-{
-	if (is_int($column)) {
-		$pdf->Cell(30,6,$item,1);
-	}
-}
-}
-while ($row = $results->fetchArray()) {
-// foreach($result as $row) {
-$pdf->Ln();
-foreach($row as $column=>$item)
-{
-	if (is_int($column)) {
-		$pdf->Cell(30,6,$item,1);
-	}
-}
-}
+
 $pdf->Output();
+?>
+
+<?php
+
+function getInt($id)
+{
+    $op='';
+    $db1 = new MyDB();
+     $results1 = $db1->query("SELECT * from family_members where member_id='$id'");
+     while ($row1 = $results1->fetchArray()) {
+
+        $op= $row1['title'].' '.$row1['ini'];
+     }
+     return $op;
+     $db1->close();
+
+}
+
+
 ?>

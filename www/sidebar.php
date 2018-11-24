@@ -1,5 +1,11 @@
 
-
+<?php
+$currentFile = $_SERVER["PHP_SELF"];
+$parts = Explode('/', $currentFile);
+$parts = $parts[count($parts) - 1];
+$parts = Explode('.', $parts);
+$pageName = $parts[0];
+?>
 <div class="off-canvas off-canvas-sidebar-show">
   <!-- off-screen toggle button -->
   <a class="off-canvas-toggle btn btn-primary btn-action" href="#sidebar-id">
@@ -18,18 +24,15 @@
                   </li>
                   <li class="divider"></li>
                   <li class="menu-item">
-                    <div class="menu-badge">
-                      <label class="label label-primary">2</label>
-                    </div><a class="active" >My profile</a>
+                    <a href="home.php" class="<?php if($pageName=='home'){echo 'active';}?>">Home</a>
                   </li>
-                  <li class="menu-item"><a href="data_entry.php">Make Entry  </a></li>
-<li class="menu-item"><a href="add_family.php">Add Family</a></li>
-<li class="menu-item"><a href="family_list.php">Family List</a></li>
-<li class="menu-item"><a href="settings.php">Settings</a></li>
+                  <li class="menu-item"><a href="data_entry.php" class="<?php if($pageName=='data_entry'){echo 'active';}?>">Accounts</a></li>
+<li class="menu-item"><a href="add_family.php" class="<?php if($pageName=='add_family'){echo 'active';}?>" > Add Family</a></li>
+<li class="menu-item"><a href="family_list.php" class="<?php if($pageName=='family_list'){echo 'active';}?>" >Family List</a></li>
+<li class="menu-item"><a href="settings.php" class="<?php if($pageName=='settings'){echo 'active';}?>">Settings</a></li>
 <li class="menu-item"><a href="index.php">Logout</a></li>
                 </ul>
   </div>
-
   <a class="off-canvas-overlay" href="#close"></a>
 
   <div class="off-canvas-content">
